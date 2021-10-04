@@ -1,0 +1,26 @@
+Hallo {USERNAME},
+
+Sie erhalten diese Benachrichtigung, weil Sie dieses Projekt oder Ticket abonniert haben.
+Das Ticket wurde aktualisiert. Sie erhalten diese Benachrichtigungen
+Wenn ein neues Ticket veröffentlicht wird, ein Kommentar und alle Details zum Ticket erstellt wurde, sowie
+wenn ein Ticket geändert wurde.
+
+Klicken Sie hier, um das Ticket anzuzeigen:
+{TICKET_URL}
+
+Um sich vom Projekt abzumelden, klicken Sie hier:
+{PROJECT_UNSUBSCRIBE_URL}
+
+Um das Ticket abzubestellen, klicken Sie hier:
+{TICKET_UNSUBSCRIBE_URL}
+
+Ticket Details
+--------------------------
+
+Ticket-ID: {TICKET_ID}
+Titel: {TICKET_TITLE}
+
+-
+{SITE_NAME}
+{PROJECT_NAME} - {TRACKER_TYPE}
+{TRACKER_URL}

@@ -1,0 +1,20 @@
+Hallo {USERNAME},
+
+Sie erhalten diese Benachrichtigung, weil ein Kommentar zu Ihrem Ticket hinzugefügt wurde.
+Ticket Nr. {TICKET_ID} im Projekt {PROJECT_NAME} - {TRACKER_TYPE} unter {SITE_NAME} von {CHANGE_USERNAME}.
+
+Ticket Details
+--------------------------
+Titel: {TICKET_TITLE}
+Status: {TICKET_STATUS}
+Mehr Information:
+{TICKET_URL}
+
+Kommentare
+--------------------------
+{TICKET_DESC}
+
+--
+{SITE_NAME}
+{PROJECT_NAME} - {TRACKER_TYPE}
+{TRACKER_URL}

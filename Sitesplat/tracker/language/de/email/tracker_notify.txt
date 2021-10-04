@@ -1,0 +1,22 @@
+Hallo {USERNAME},
+
+Ihre Meldung wurde erfolgreich hinzugefügt und wird in Kürze bearbeitet.
+Sie erhalten weitere Benachrichtigungen, wenn Kommentare zu diesem Ticket hinzugefügt werden
+und wenn ein Status von einem Team Mitglied geändert wird.
+
+Klicken Sie hier, um das Ticket anzuzeigen:
+{TICKET_URL}
+
+Ticket Details
+--------------------------
+
+Ticket ID: {TICKET_ID}
+Projekt:   {PROJECT_NAME}
+Titel:     {TICKET_TITLE}
+
+{TICKET_DESC}
+
+--
+{SITE_NAME}
+{PROJECT_NAME} - {TRACKER_TYPE}
+{TRACKER_URL}

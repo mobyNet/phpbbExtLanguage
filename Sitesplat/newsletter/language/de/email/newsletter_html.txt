@@ -1,0 +1,48 @@
+﻿Betreff: Newsletter von MobyNet 
+
+<body style="margin-top:0px; padding-top:0px; background-color: #F5F5F5">
+
+<h4 style="text-align: center;">
+<img src="http://mobynet.visenet.info/images/newsletter/mobynet/logo.PNG" alt="" width="250" height="40" /><br/>
+</h4>
+
+
+
+<div style="margin:0px auto; width:60%; background-color:white;"><br/>
+<br/>
+<h4 style="text-align: center;">
+<img src="http://mobynet.visenet.info/images/newsletter/logo.JPG" alt="" width="600" height="400" /><br/>
+<br/>
+
+Nachricht:<br/>
+<br/>
+     {MESSAGE}
+
+<br/>
+<br/>
+<br/>
+</h4>
+</div>
+<br/>
+<br/>
+<h5 style=" color: #808080; text-align: center;">
+   <span>
+    Bitte beachten Sie, dass die Antwortadresse auf diese E-Mail auf <strong>"mailto:mobynet@h-d-feil.de"</strong> eingestellt wurde. <br />
+    Wenn diese Nachricht Spam ist, beleidigende oder andere Kommentare enthält, die Sie als anstößig empfinden, <br />
+    wenden Sie sich bitte an den Webmaster des Forums unter folgender Adresse: <strong>mailto:mail@h-d-feil.de</strong>
+    </span></h5>
+     <h4 style=" color: #808080; text-align: center;"><span id="">&copy; </span>
+    <span id="">Copyright </span>
+    <span id="">MobyNet <br />
+    &bdquo;Alle Rechte Vorbehalten&ldquo;</span> <br />
+    </h4>
+     <h4 style="text-align: center;">
+      <span><a href="http://mobynet.visenet.info/ucp.php?mode=privacy>Zum Datenschutz</a></span>
+     </h4>
+<p style=" color: #808080; text-align: center;">
+   <a href="{NEWSLETTER_ONLINE}">Alle Newsletter sind online</a>
+   <p style=" color: #808080; text-align: center;">M&ouml;chten Sie unseren Newsletter nicht mehr erhalten? klicken Sie <a href="{NEWSLETTER_OPTOUT}">hier</a></p>
+</p>
+<br/><br/>
+
+ 
