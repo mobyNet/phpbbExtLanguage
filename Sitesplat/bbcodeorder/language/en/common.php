@@ -30,7 +30,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_GROUP'				=> 'Manage groups that can use this BBCode',
 	'BBCODE_GROUP_EXPLAIN'		=> 'If no groups are selected, then all users can use this BBCode. Use CTRL+CLICK (or CMD+CLICK on Mac) to select/deselect more than one group.',
 	'BBCODEORDER_IMGUR_UPLOAD'	=> 'Click to upload to IMGUR',
-	
+
 	'BBCODE_B'						=> 'Bold',
 	'BBCODE_I'						=> 'Italic',
 	'BBCODE_U'						=> 'Underline',
