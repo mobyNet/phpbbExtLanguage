@@ -30,3 +30,4 @@ $lang = array_merge($lang, array(
 	'BBCODE_URL'					=> 'URL',
 	'BBCODE_FLASH'					=> 'FLASH',
 ));
+
