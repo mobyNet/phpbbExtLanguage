@@ -42,4 +42,4 @@ $lang = array_merge($lang, array(
 	'BBCODE_IMG'					=> 'Bild',
 	'BBCODE_URL'					=> 'URL',
 	'BBCODE_FLASH'					=> 'FLASH',
-));
+)); 
