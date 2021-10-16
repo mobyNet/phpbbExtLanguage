@@ -18,7 +18,7 @@ Hier ist es mir Möglich:
 
 Ich selber benutze phpbb  und möchte an dieser stelle, eine Private Verwaltung von  Extension , die ich selber benutze , NUR **Übersetzen**.
 
-![Hier mein Bild](C:\Users\moby2006\Desktop\logo.PNG)
+![Hier mein Bild](https://i.imgur.com/sfNRvir.png)
 
 
 
