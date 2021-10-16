@@ -4,6 +4,12 @@
 
 > Der Inhalt dieser Seite ,soll nur als **Private** Übersetzungen von Extension der Forensoftware [phpbb.de](https://www.phpbb.de/)  dienen , ich werde keine Extension veröffentlichen.
 
+### Wichtig
+
+> Falls irgendwas hier nicht hin gehört, werde ich das unverzüglich löschen, eine kurze Nachricht genügt.
+
+
+
 ## Warum diese Seite?
 
 Mein Ansatz war , wie überprüfe ich eine Datei mit Sprachvariablen ob ich alles Übersetzt habe, da bin auf Github gestoßen.
