@@ -29,24 +29,24 @@ $lang = array_merge($lang, array(
 	'ACP_SITESPLAT_UPDATE_MANAGER'  => 'SiteSplat Update Manager',
 
     'VERSION_INSTALLED'  			=> 'Installierte Version',
-	'NEW_BOOTS_VERSION'				=> 'Neue %s Version ist verfügbar',
-	'VERSIONNUMBERS'				=> 'Installierte Version: %s, lade dir die neue Version vom Server herunter: <a style="color:#fff;" href="%s" title="Download" target="_blank">%s</a>',
-	'SS_RAPID_DISABLE'				=> 'Schnell-Deaktivierung',
-	'SS_RAPID_DISABLE_TLT'		    => 'Deaktiviert (alle) SiteSplat Erweiterungen auf einmal. Mache vorher ein Backup!!!',
+	'NEW_BOOTS_VERSION'			=> 'Neue %s Version ist verfügbar',
+	'VERSIONNUMBERS'			=> 'Installierte Version: %s, lade dir die neue Version vom Server herunter: <a style="color:#fff;" href="%s" title="Download" target="_blank">%s</a>',
+	'SS_RAPID_DISABLE'			=> 'Schnell-Deaktivierung',
+	'SS_RAPID_DISABLE_TLT'		    	=> 'Deaktiviert (alle) SiteSplat Erweiterungen auf einmal. Mache vorher ein Backup!!!',
 	
-	'DOWNLOAD_MSG'					=> 'Die aktuelle Version <span class="label label-success">%s</span> kann auf Themeforest heruntergeladen werden: <a href="%s" title="Download" target="_blank">%s - phpBB3</a>',
-	'CHANGE_LOG_MSG'				=> 'Den Changelog findest du hier: <a href="%s" target="_blank">%s (phpBB3.1) Changelog</a>',
-	'SUPPORT_FORUM_MSG'				=> 'Das Support-Forum ist auf der aktuellen Seite der Community: <a href="%s" title="Download" target="_blank">http://www.sitesplat.com</a>',
-	'COLORIZE_MSG'					=> 'Den Colorize Service findest du hier: <a href="http://www.sitesplat.com/phpBB3/themer.php" target="_blank">Colorize</a> (Stelle sicher, dass du angemeldet bist)',
-	'NO_VERSIONINFO'				=> 'Aktuell kann keine Version abgerufen werden, versuche es in ein paar Minuten erneut!',
+	'DOWNLOAD_MSG'				=> 'Die aktuelle Version <span class="label label-success">%s</span> kann auf Themeforest heruntergeladen werden: <a href="%s" title="Download" target="_blank">%s - phpBB3</a>',
+	'CHANGE_LOG_MSG'			=> 'Den Changelog findest du hier: <a href="%s" target="_blank">%s (phpBB3.1) Changelog</a>',
+	'SUPPORT_FORUM_MSG'			=> 'Das Support-Forum ist auf der aktuellen Seite der Community: <a href="%s" title="Download" target="_blank">http://www.sitesplat.com</a>',
+	'COLORIZE_MSG'				=> 'Den Colorize Service findest du hier: <a href="http://www.sitesplat.com/phpBB3/themer.php" target="_blank">Colorize</a> (Stelle sicher, dass du angemeldet bist)',
+	'NO_VERSIONINFO'			=> 'Aktuell kann keine Version abgerufen werden, versuche es in ein paar Minuten erneut!',
 
-    'LOG_FILES_CHANGED'			    => '<strong>BBcore hat die folgenden %s Dateien für dich geändert:</strong><br />» %s',
+    'LOG_FILES_CHANGED'			    	=> '<strong>BBcore hat die folgenden %s Dateien für dich geändert:</strong><br />» %s',
     'LOG_THEME_INSTALLED'			=> '<strong>BBcore wurde erfolgreich installiert</strong>',
-    'LOG_FILES_CHANGED_FAILED'	    => '<strong>BBcore wurde nicht erfolgreich installiert</strong><br />» Einige Funktionen funktionieren vielleicht nicht!',
-    'LOG_THEME_UNINSTALLED'		    => '<strong>BBcore wurde erfolgreich deinstalliert</strong>',
+    'LOG_FILES_CHANGED_FAILED'	    		=> '<strong>BBcore wurde nicht erfolgreich installiert</strong><br />» Einige Funktionen funktionieren vielleicht nicht!',
+    'LOG_THEME_UNINSTALLED'		    	=> '<strong>BBcore wurde erfolgreich deinstalliert</strong>',
   
-    'LOG_FILE_NOT_REPLACED'		    => '<strong>BBcore konnte die Originaldatei nicht für dich ersetzen:</strong><br />» %s',
-    'LOG_FILE_NOT_UPDATED'		    => '<strong>BBcore konnte folgende %s Dateien nicht für dich aktualisieren:</strong><br />» %s',
+    'LOG_FILE_NOT_REPLACED'		    	=> '<strong>BBcore konnte die Originaldatei nicht für dich ersetzen:</strong><br />» %s',
+    'LOG_FILE_NOT_UPDATED'		    	=> '<strong>BBcore konnte folgende %s Dateien nicht für dich aktualisieren:</strong><br />» %s',
 
 
 	
