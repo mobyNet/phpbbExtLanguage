@@ -55,14 +55,14 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge(
 	$lang, array(
-		'UCP_IR'		 	=> 'Bildanpassung',
-		'IMAGE_RESIZE'			=> 'Bildgröße ändern',
-		'IMAGE_RESIZE_EXPLAIN'	   	=> 'Schneide deine %1$s aus dem Bild aus und bestätige.',
+		'UCP_IR'		 				=> 'Bildanpassung',
+		'IMAGE_RESIZE'					=> 'Bildgröße ändern',
+		'IMAGE_RESIZE_EXPLAIN'	   		=> 'Schneide deine %1$s aus dem Bild aus und bestätige.',
 		// Your avatar will be saved with a height of %1$s pixels and a width of %2$s pixels.',
 
 		'IMAGE_RESIZE_ERROR'	    	=> 'Keine App oder Datei zum Senden!',
 		'IMAGERESIZE_NOTICE'	    	=> '<div class="phpinfo"><p>Für diese Erweiterung gibt es keine spezielle Konfiguration. Nachdem der Benutzer den Avatar über den UCP-Avatar-Upload hochgeladen hat, ist die Option zum Zuschneiden verfügbar.<br /> Überprüfen Sie das ACP &#62; Avatar-Einstellungen: "Maximale Avatar-Dateigröße" auf 0 oder 2 MB oder mehr für eine reibungslose Benutzererfahrung.</p></div> ',
-		'ERROR_IMAGERESIZE_DISABLE'	=> 'Sie können BBAvatarResize wegen anderer aktiver SiteSplat-Erweiterungen nicht deaktivieren<br /><div>» %s</div>',
+		'ERROR_IMAGERESIZE_DISABLE'		=> 'Sie können BBAvatarResize wegen anderer aktiver SiteSplat-Erweiterungen nicht deaktivieren<br /><div>» %s</div>',
 	    'SS_HELPER_NOTY'	    		=> 'SiteSplat BBcore existiert nicht!<br />Laden Sie <a href="https://sitesplat.com" target="_blank">BBcore</a> herunter und kopieren Sie den BBcore-Ordner in Ihren Sitesplat-Erweiterungsordner.',
 	)
 );
