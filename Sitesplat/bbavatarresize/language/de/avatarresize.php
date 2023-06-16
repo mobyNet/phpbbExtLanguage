@@ -38,9 +38,8 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge(
 $lang, array(
-'AVATAR_RESIZE'		=> 'Avatar Größe ändern',
-'AVATAR_RESIZE_EXPLAIN'	=> 'Klicke auf bearbeiten, um  das %1$s zuzuschneiden, und Sende es ab. Ihr %1$s wird mit einer Höhe von %2$s Pixel und einer Breite von %3$s Pixel gespeichert.',
-'BBAVATARRSIZE_NOTICE'	=> '<div class="phpinfo"><p>Für diese Erweiterung gibt es keine spezifische Konfiguration. Nachdem der Benutzer den Avatar über den UCP Avatar-Upload hochgeladen hat, ist die Zuschneideoption verfügbar.<br /> &Uuml;berpr&uuml;fe im ACP &#62; Avatar Einstellungen: "Avatar-Dateigröße": 0 oder 2 MB oder mehr für eine reibungslose Benutzererfahrung.</p></div>',
-'SS_HELPER_NOTY'	    	=> 'SiteSplat BBcore existiert nicht! <br/> Laden Sie das <a href="http://sitesplat.com" target="_blank"> BBcore </a> herunter und kopieren Sie den BBcore-Ordner in Ihren SiteSplat-Erweiterungsordner.',
-'SS_TEST'				=> 'Hier eine Übersetzung von mir',			
+'AVATAR_RESIZE' 						=> 'Avatar Größe ändern',
+'AVATAR_RESIZE_EXPLAIN'			=> 'Klicke auf bearbeiten, um  das %1$s zuzuschneiden, und Sende es ab. Ihr %1$s wird mit einer Höhe von %2$s Pixel und einer Breite von %3$s Pixel gespeichert.',
+'BBAVATARRSIZE_NOTICE'			=> '<div class="phpinfo"><p>Für diese Erweiterung gibt es keine spezifische Konfiguration. Nachdem der Benutzer den Avatar über den UCP Avatar-Upload hochgeladen hat, ist die Zuschneideoption verfügbar.<br /> &Uuml;berpr&uuml;fe im ACP &#62; Avatar Einstellungen: "Avatar-Dateigröße": 0 oder 2 MB oder mehr für eine reibungslose Benutzererfahrung.</p></div>',
+'SS_HELPER_NOTY'						=> 'SiteSplat BBcore existiert nicht! <br/> Laden Sie das <a href="http://sitesplat.com" target="_blank"> BBcore </a> herunter und kopieren Sie den BBcore-Ordner in Ihren SiteSplat-Erweiterungsordner.',
 ));
