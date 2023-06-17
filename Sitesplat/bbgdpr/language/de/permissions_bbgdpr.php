@@ -17,6 +17,6 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'ACL_U_DELETE_MY_ACCOUNT_POSTS'	=> 'Kann Beitr&auml;ge beim L&ouml;schen des Kontos l&ouml;schen',
-	'ACL_U_DELETE_MY_ACCOUNT_PMS'	=> 'Kann PMs beim L&ouml;schen des Kontos l&ouml;schen',
+'ACL_U_DELETE_MY_ACCOUNT_POSTS'     => 'Kann Beitr&auml;ge beim L&ouml;schen des Kontos l&ouml;schen',
+'ACL_U_DELETE_MY_ACCOUNT_PMS'       => 'Kann PMs beim L&ouml;schen des Kontos l&ouml;schen',
 ));
