@@ -18,8 +18,8 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'BBTRANSLATE_SELECT' => 'translate',
-	'TOTAL_TRANSLATIONS'	=> array(
-		2	=> 'Total post translations <strong>%d</strong>',
-	),
+'BBTRANSLATE_SELECT'               => 'translate',
+'TOTAL_TRANSLATIONS'=> array(
+2	                              => 'Total post translations <strong>%d</strong>',
+),
 ));
