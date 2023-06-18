@@ -1,81 +1,79 @@
 <?php
 /**
-*
-* @package BBnewsletter
-* @copyright (c) 2016 SiteSplat All rights reserved
-* @license Proprietary
-*
-*/
+ *
+ * @package BBnewsletter
+ * @copyright (c) 2016 SiteSplat All rights reserved
+ * @license Proprietary
+ *
+ */
 
-if (!defined('IN_PHPBB'))
-{
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
 $lang = array_merge($lang, array(
-	'ACP_NEWSLETTER'			=> 'Newsletter',
-	'ACP_NEWSLETTER_EXPLAIN'	=> 'Richten Sie Ihren Newsletter ein. Unten finden Sie mehrere Optionen. Bitte stellen Sie sicher, dass Ihr Mailserver alle Mails akzeptiert, andernfalls werden die Mail-Einstellungen von phpbb\ verwendet, um Mails in kleinen Stapeln zu versenden. <br />Die wöchentlichen und monatlichen "Catch-up"-Forumsnachrichten werden über den Cron-Task verschickt. Installieren Sie die <a href="https://github.com/ForumHulp/cronstatus" target="_blank">Cronstatus-Erweiterung</a> und wählen Sie in den Optionen "Cron immer ausführen", um die "Catch-up"-Nachrichten häufiger zu versenden (dies ist besonders für kleine Foren nützlich). <br />Für HTML-E-Mails installieren Sie <a href=" https://github.com/ForumHulp/htmlemail" target="_blank">HTML emails Extension</a>, die die HTML-Einstellungen aktiviert.<br />',
-    'FORUMS_NEWS_FROM'		    => 'Quelle des Newsletter-Forums',
-	'FORUMS_FROM_EXPLAIN'		=> 'Wählen Sie die Foren aus, von denen die Benutzer die Nachrichten erhalten sollen.',
-	'SEND_IMMEDIATELY'			=> 'Sofort senden',
-	'SEND_IMMEDIATELY_EXPLAIN'	=> 'Versuchen Sie, die E-Mails sofort zu versenden. Dies hängt von den Parametern der E-Mail-Konfiguration des Servers ab',
-	'PERIOD'					=> 'Email  &Uuml;bersicht (oder Catch-up) Phase',
-	'PERIOD_EXPLAIN'			=> 'Diese Funktion sendet automatisch "Catch-up"-E-Mails an die Benutzer, die das Forum abonniert haben. Die E-Mail wird auf der Grundlage der neuen Themen im Forum erstellt. Der Benutzer erhält eine E-Mail mit dem Ziel, das Interesse des Benutzers an den jüngsten Aktivitäten des Forums zu wecken. Bearbeiten Sie die Vorlagendatei mit dem Namen newsletter_html.txt für die HTML-Version und newsletter_txt.txt für die TXT-Version von:<br /> <code>root\ext\sitesplat\newsletter\language\en\email\</code> <br /> Um zu lernen, wie man professionell aussehende HTML-E-Mails versendet, schauen Sie sich die Tutorials auf <a href=" https://sitesplat.com/" target="_blank">sitesplat.com</a> an oder klicken Sie oben auf das Label "Tutorials".',
-	'WEEKLY'					=> 'Wöchentlich',
-	'MONTHLY'					=> 'Monatlich',
-	'NO_OVERVIEW'				=> 'Keine',
-	'PERIOD_SEND'				=> 'Zeitraum für automatischen Newsletter festlegen',
-	'SEND_TO_GROUP'				=> 'An Gruppe senden',
-	'SEND_TO_USERS'				=> 'An den/die Benutzer senden',
-	'SEND_TO_USERS_EXPLAIN'		=> 'Wenn Sie dieses Feld verwenden, hat es Vorrang vor der obigen Option "An Gruppe senden". Jeder Benutzer in einer neuen Zeile',
-	'ALL_USERS'					=> 'Alle Benutzer',
-	'NEW_USER'					=> 'Neue Benutzer zulassen',
-	'MAIL_LOW_PRIORITY'			=> 'Niedrig',
-	'MAIL_NORMAL_PRIORITY'		=> 'Normal',
-	'MAIL_HIGH_PRIORITY'		=> 'Hoch',
-	'MAIL_PRIORITY'				=> 'Priorität der E-Mail',
-	'USE_HTML'					=> 'HTML für E-Mails benutzen',
-	'COMPOSE_HTML'				=> 'Manuell senden',
-	'COMPOSE_HTML_EXPLAIN'		=> 'Wenn "Manuell senden" ausgewählt ist, steht der HTML-Editor zur Verfügung, um benutzerdefinierte E-Mails im HTML-Format zu versenden.',
-	'MASS_MESSAGE'				=> 'Nachricht (Newsletter Body)',
-	'MASS_MESSAGE_EXPLAIN'		=> 'Die HTML-Nachricht wird entfernt, wenn die HTML-E-Mail-Erweiterung nicht aktiviert ist. Um den HTML-Editor zu verwenden, klicken Sie auf "Werkzeuge" und dann auf "Quellcode" und geben Sie den HTML-Code in den Code-Editor ein ',
-	'FHHTML_EMAIL_NOT_ENABLED'	=> 'HTML für E-Mail-Erweiterung nicht aktiviert. Laden Sie es von https://github.com/ForumHulp/htmlemail herunter.',
-	'FHHTML_EMAIL_DOWNLOAD'	    => 'HTML für E-Mail Erweiterung nicht aktiviert. Laden Sie sie herunter von <a href="https://github.com/ForumHulp/htmlemail" target="blank">GithHub HTML Email Ext</a>',
-	'LAST_SEND'					=> '<span id="viewsubscribers" class="label label-info" title="Ansicht Abonennten">%1$s Mitglieder</span> abonniert, letzter Newsletter wurde verschickt am <strong class="text-info">%2$s</strong>',
-	'LAST_SEND_LETTERS'			=> 'Letzter Newsletter',
-	'LAST_SEND_EXPLAIN'			=> '**Bitte beachten Sie, dass neu registrierte Benutzer automatisch angemeldet werden. (Klicken Sie oben auf "X Mitglieder", um die Benutzerliste anzuzeigen)',
-	'LAST_NEWSLETTERS_EXPLAIN'	=> '**Bitte beachten Sie, dass die folgende Vorlage, die in den einzelnen E-Mails unten angezeigt wird, NICHT zu 100% der versendeten E-Mail entspricht. Das liegt daran, dass das ACP-Stylesheet von phpBB\ veraltete CSS-Rücksetzregeln enthält. Schauen Sie in Ihrer E-Mail-Kopie oder im Frontend-Archiv nach, um die genaue E-Mail-Genauigkeit zu erfahren.<br /> Dies ist eine Liste mit dem einzigen Zweck, den Überblick über die E-Mails und die Benutzer auf einfache Weise zu behalten.<br />Sichern Sie immer eine Kopie der verfassten HTML-E-Mail, bevor Sie sie verschicken, wenn Sie sie in Zukunft wiederverwenden möchten.',
-	'NEWS_PAGE'					=> 'Sichtbar',
-	'HIDE'						=> 'Verstecken',
-	'SHOW'						=> 'anzeigen',
-	'DELETE_MAIL_SUCCES'		=> 'Newsletter gelöscht',
-	'ACP_NEWSOVERVIEW_SEND'		=> 'Newsletter erfolgreich versendet',
-	'ACP_NEWSOVERVIEW_SAVED'	=> 'Einstellungen erfolgreich gespeichert',
-	
-	'SITESPLAT_COM'		        => 'https://sitesplat.com',
-	'SITESPLAT_COPY'		    => '&#169; SiteSplat',
-	'LICENSE_INFO'		        => 'Eigentum - SiteSplat Alle Rechte vorbehalten',
-	'EXTENSION_DEVELOPER'	    => 'Entwickler',
-	'ACP_NOTICE_CLOSE'			=> 'Schlie&szlig;en',
-	'ACP_NEWS_VERSION'          => '1.0.5',
-	'ACP_LOADING'		        => 'Laden... Warten Sie',
-	'FORUM_CONTENT'		        => 'Forum Inhalt',
-	'EXT_NEWS_DESCRIPTION_PAGE'	=> 'Ein Newsletter-System mit Archiv, wöchentlichem, monatlichem und vielen weiteren Optionen, um Ihren eigenen HTML-Newsletter wie ein Profi zu betreiben!',
-	'EXT_NEWS_TASKS_1'			=> 'Newsletter Archiv',
-	'EXT_NEWS_TASKS_2'			=> 'Vollständig HTML-fähig',
-	'EXT_NEWS_TASKS_3'			=> 'Synchronisierung mit Cron-Aufgaben und kompatibel mit <a href="https://www.phpbb.com/customise/db/extension/cronstatus/">Cron Status</a>',
-	'EXT_NEWS_TASKS_4'			=> 'Geplanter Newsletter',
-	'EXT_NEWS_TASKS_5'			=> 'Sehen Sie sich die anderen Premium-Addons auf <a href="https://sitesplat.com/phpBB3/marketplace.php">sitesplat.com/marketplace.php</a> an.',
-	'EXT_NEWS_TASKS_6'			=> 'phpBB 3.2 ready',
+'ACP_NEWSLETTER'                         => 'Newsletter',
+'ACP_NEWSLETTER_EXPLAIN'                 => 'Richten Sie Ihren Newsletter ein. Unten finden Sie mehrere Optionen. Bitte stellen Sie sicher, dass Ihr Mailserver alle Mails akzeptiert, andernfalls werden die Mail-Einstellungen von phpbb\ verwendet, um Mails in kleinen Stapeln zu versenden. <br />Die wöchentlichen und monatlichen "Catch-up"-Forumsnachrichten werden über den Cron-Task verschickt. Installieren Sie die <a href="https://github.com/ForumHulp/cronstatus" target="_blank">Cronstatus-Erweiterung</a> und wählen Sie in den Optionen "Cron immer ausführen", um die "Catch-up"-Nachrichten häufiger zu versenden (dies ist besonders für kleine Foren nützlich). <br />Für HTML-E-Mails installieren Sie <a href=" https://github.com/ForumHulp/htmlemail" target="_blank">HTML emails Extension</a>, die die HTML-Einstellungen aktiviert.<br />',
+'FORUMS_NEWS_FROM'                       => 'Quelle des Newsletter-Forums',
+'FORUMS_FROM_EXPLAIN'                    => 'Wählen Sie die Foren aus, von denen die Benutzer die Nachrichten erhalten sollen.',
+'SEND_IMMEDIATELY'                       => 'Sofort senden',
+'SEND_IMMEDIATELY_EXPLAIN'               => 'Versuchen Sie, die E-Mails sofort zu versenden. Dies hängt von den Parametern der E-Mail-Konfiguration des Servers ab',
+'PERIOD'                                 => 'Email  &Uuml;bersicht (oder Catch-up) Phase',
+'PERIOD_EXPLAIN'                         => 'Diese Funktion sendet automatisch "Catch-up"-E-Mails an die Benutzer, die das Forum abonniert haben. Die E-Mail wird auf der Grundlage der neuen Themen im Forum erstellt. Der Benutzer erhält eine E-Mail mit dem Ziel, das Interesse des Benutzers an den jüngsten Aktivitäten des Forums zu wecken. Bearbeiten Sie die Vorlagendatei mit dem Namen newsletter_html.txt für die HTML-Version und newsletter_txt.txt für die TXT-Version von:<br /> <code>root\ext\sitesplat\newsletter\language\en\email\</code> <br /> Um zu lernen, wie man professionell aussehende HTML-E-Mails versendet, schauen Sie sich die Tutorials auf <a href=" https://sitesplat.com/" target="_blank">sitesplat.com</a> an oder klicken Sie oben auf das Label "Tutorials".',
+'WEEKLY'                                 => 'Wöchentlich',
+'MONTHLY'                                => 'Monatlich',
+'NO_OVERVIEW'                            => 'Keine',
+'PERIOD_SEND'                            => 'Zeitraum für automatischen Newsletter festlegen',
+'SEND_TO_GROUP'                          => 'An Gruppe senden',
+'SEND_TO_USERS'                          => 'An den/die Benutzer senden',
+'SEND_TO_USERS_EXPLAIN'                  => 'Wenn Sie dieses Feld verwenden, hat es Vorrang vor der obigen Option "An Gruppe senden". Jeder Benutzer in einer neuen Zeile',
+'ALL_USERS'                              => 'Alle Benutzer',
+'NEW_USER'                               => 'Neue Benutzer zulassen',
+'MAIL_LOW_PRIORITY'                      => 'Niedrig',
+'MAIL_NORMAL_PRIORITY'                   => 'Normal',
+'MAIL_HIGH_PRIORITY'                     => 'Hoch',
+'MAIL_PRIORITY'                          => 'Priorität der E-Mail',
+'USE_HTML'                               => 'HTML für E-Mails benutzen',
+'COMPOSE_HTML'                           => 'Manuell senden',
+'COMPOSE_HTML_EXPLAIN'                   => 'Wenn "Manuell senden" ausgewählt ist, steht der HTML-Editor zur Verfügung, um benutzerdefinierte E-Mails im HTML-Format zu versenden.',
+'MASS_MESSAGE'                           => 'Nachricht (Newsletter Body)',
+'MASS_MESSAGE_EXPLAIN'                   => 'Die HTML-Nachricht wird entfernt, wenn die HTML-E-Mail-Erweiterung nicht aktiviert ist. Um den HTML-Editor zu verwenden, klicken Sie auf "Werkzeuge" und dann auf "Quellcode" und geben Sie den HTML-Code in den Code-Editor ein ',
+'FHHTML_EMAIL_NOT_ENABLED'               => 'HTML für E-Mail-Erweiterung nicht aktiviert. Laden Sie es von https://github.com/ForumHulp/htmlemail herunter.',
+'FHHTML_EMAIL_DOWNLOAD'                  => 'HTML für E-Mail Erweiterung nicht aktiviert. Laden Sie sie herunter von <a href="https://github.com/ForumHulp/htmlemail" target="blank">GithHub HTML Email Ext</a>',
+'LAST_SEND'                              => '<span id="viewsubscribers" class="label label-info" title="Ansicht Abonennten">%1$s Mitglieder</span> abonniert, letzter Newsletter wurde verschickt am <strong class="text-info">%2$s</strong>',
+'LAST_SEND_LETTERS'                      => 'Letzter Newsletter',
+'LAST_SEND_EXPLAIN'                      => '**Bitte beachten Sie, dass neu registrierte Benutzer automatisch angemeldet werden. (Klicken Sie oben auf "X Mitglieder", um die Benutzerliste anzuzeigen)',
+'LAST_NEWSLETTERS_EXPLAIN'               => '**Bitte beachten Sie, dass die folgende Vorlage, die in den einzelnen E-Mails unten angezeigt wird, NICHT zu 100% der versendeten E-Mail entspricht. Das liegt daran, dass das ACP-Stylesheet von phpBB\ veraltete CSS-Rücksetzregeln enthält. Schauen Sie in Ihrer E-Mail-Kopie oder im Frontend-Archiv nach, um die genaue E-Mail-Genauigkeit zu erfahren.<br /> Dies ist eine Liste mit dem einzigen Zweck, den Überblick über die E-Mails und die Benutzer auf einfache Weise zu behalten.<br />Sichern Sie immer eine Kopie der verfassten HTML-E-Mail, bevor Sie sie verschicken, wenn Sie sie in Zukunft wiederverwenden möchten.',
+'NEWS_PAGE'                              => 'Sichtbar',
+'HIDE'                                   => 'Verstecken',
+'SHOW'                                   => 'anzeigen',
+'DELETE_MAIL_SUCCES'                     => 'Newsletter gelöscht',
+'ACP_NEWSOVERVIEW_SEND'                  => 'Newsletter erfolgreich versendet',
+'ACP_NEWSOVERVIEW_SAVED'                 => 'Einstellungen erfolgreich gespeichert',
 
-	'NEWS_SUBSCRIBERS_INFO'     => 'Abonnenten und Nachrichten Info',
-	'NEWS_TRICKS_TITLE'         => 'Tipps und Tricks',
-	'ACP_NEWS_TRICK_EXPLAIN'	=> '<p>Begrenzt Ihr Internetanbieter die Anzahl der E-Mails, die Sie pro Tag versenden können?</p>
+'SITESPLAT_COM'                          => 'https://sitesplat.com',
+'SITESPLAT_COPY'                         => '&#169; SiteSplat',
+'LICENSE_INFO'                           => 'Eigentum - SiteSplat Alle Rechte vorbehalten',
+'EXTENSION_DEVELOPER'                    => 'Entwickler',
+'ACP_NOTICE_CLOSE'                       => 'Schlie&szlig;en',
+'ACP_NEWS_VERSION'                       => '1.0.5',
+'ACP_LOADING'                            => 'Laden... Warten Sie',
+'FORUM_CONTENT'                          => 'Forum Inhalt',
+'EXT_NEWS_DESCRIPTION_PAGE'              => 'Ein Newsletter-System mit Archiv, wöchentlichem, monatlichem und vielen weiteren Optionen, um Ihren eigenen HTML-Newsletter wie ein Profi zu betreiben!',
+'EXT_NEWS_TASKS_1'                       => 'Newsletter Archiv',
+'EXT_NEWS_TASKS_2'                       => 'Vollständig HTML-fähig',
+'EXT_NEWS_TASKS_3'                       => 'Synchronisierung mit Cron-Aufgaben und kompatibel mit <a href="https://www.phpbb.com/customise/db/extension/cronstatus/">Cron Status</a>',
+'EXT_NEWS_TASKS_4'                       => 'Geplanter Newsletter',
+'EXT_NEWS_TASKS_5'                       => 'Sehen Sie sich die anderen Premium-Addons auf <a href="https://sitesplat.com/phpBB3/marketplace.php">sitesplat.com/marketplace.php</a> an.',
+'EXT_NEWS_TASKS_6'                       => 'phpBB 3.2 ready',
+
+'NEWS_SUBSCRIBERS_INFO'                  => 'Abonnenten und Nachrichten Info',
+'NEWS_TRICKS_TITLE'                      => 'Tipps und Tricks',
+'ACP_NEWS_TRICK_EXPLAIN'                 => '<p>Begrenzt Ihr Internetanbieter die Anzahl der E-Mails, die Sie pro Tag versenden können?</p>
 									<p><strong>Natürlich tun sie das!</strong></p>
 									<p>Jeder ausgehende SMTP-Mailserver unterliegt den E-Mail-Richtlinien eines Anbieters, die stündliche und/oder tägliche E-Mail-Sendebeschränkungen enthalten. Diese Richtlinie bestimmt letztlich, wie viele E-Mails Sie pro Tag versenden können. Nachstehend finden Sie eine Liste der stündlichen und täglichen Sendebeschränkungen für die meisten großen ISPs, Webhosting-Unternehmen und Anbieter kostenloser E-Mail-Adressen.</p>
 									<p><strong><a title="E-Mail-Versandbeschränkungen für ISP, Webhosting und kostenlose E-Mail-Anbieter" href="http://group-mail.com/sending-email/email-sending-limits-for-isp-web-hosting-and-free-email-providers/">E-Mail-Versandbeschränkungen von ISP, Webhosting und kostenlosen E-Mail-Anbietern</a></strong></p>
@@ -118,62 +116,61 @@ $lang = array_merge($lang, array(
 									<p>&nbsp;</p>
 									<hr>
 									<p></p>',
-	
-	'EXT_NEWS_TUTORIALS_TITLE'  => 'Anleitungen',
-	'EXT_NEWS_TUTORIALS_EXPLAIN'=> '<li><p>Templates</p>
-					<ul>
-					<li><a href="http://htmlemailboilerplate.com/" target="_blank"><strong>HTML f&uuml;r Email - Boilerplate</strong></a>: Ein guter <strong>Startpunkt</strong> für die Codierung von E-Mails.</li>
-					<li><a href="http://www.campaignmonitor.com/templates/" target="_blank"><strong>Vorlage der Templates</strong></a>: Template builder + kostenlos herunterladbare  templates</li>
-					</ul>
-					</li>
-					
-					<li><p>Anleitungen &amp; Guides</p>
 
-					<ul>
-					<li><a href="http://kb.mailchimp.com/article/how-to-code-html-emails" target="_blank"><strong>Wie man HTML-E-Mails codiert (Mailchimp)</strong></a>: Wie HTML-E-Mails funktionieren, grundlegende Konzepte, bewährte Verfahren, Tipps und Tricks</li>
-					<li><a href="http://www.smashingmagazine.com/2010/01/19/design-and-build-an-email-newsletter-without-losing-your-mind/" target="_blank"><strong>Entwerfen und Erstellen von E-Mail-Newslettern, ohne den Verstand (und die Seele) zu verlieren</strong></a>:  Informationen, die Sie benötigen, um einen HTML-Newsletter zu planen, zu entwerfen und zu erstellen, der gut dargestellt wird</li>
-					<li><a href="http://mailchimp.com/resources/guides/email-marketing-field-guide/html/" target="_blank"><strong>E-Mail-Marketing-Handbuch (Mailchimp)</strong></a></li>
-					<li><a href="http://mattmedia.net/2007/08/23/8-html-email-tips-i-wish-i-knew-sooner/" target="_blank"><strong>8 HTML-E-Mail-Tipps, die ich gerne früher gekannt hätte</strong></a></li>
-					<li><a href="http://www.campaignmonitor.com/css/" target="_blank"><strong>Das ultimative Handbuch</a>: Von Kampagnen Monitor</strong></li>
-					<li><a href="http://css-tricks.com/using-css-in-html-emails-the-real-story/" target="_blank"><strong>CSS-Tricks: CSS in HTML-E-Mails verwenden</strong></a>: Einige "Ich habe es ja gesagt" Anmerkungen und Tipps zu HTML f&uuml;r E-Mails und CSS.</li>
-					</ul>
-					</li>
-					
-					<li><p>Prüfung</p>
+'EXT_NEWS_TUTORIALS_TITLE'               => 'Anleitungen',
+'EXT_NEWS_TUTORIALS_EXPLAIN'             => '<li><p>Templates</p>
+					                        <ul>
+					                        <li><a href="http://htmlemailboilerplate.com/" target="_blank"><strong>HTML f&uuml;r Email - Boilerplate</strong></a>: Ein guter <strong>Startpunkt</strong> für die Codierung von E-Mails.</li>
+					                        <li><a href="http://www.campaignmonitor.com/templates/" target="_blank"><strong>Vorlage der Templates</strong></a>: Template builder + kostenlos herunterladbare  templates</li>
+					                        </ul>
+					                        </li>
+					                        
+					                        <li><p>Anleitungen &amp; Guides</p>
 
-					<ul>
-					<li><a href="http://www.emailonacid.com/" target="_blank"><strong>E-Mail auf Acid testen</strong></a>: Kostenlose und kostenpflichtige Tests</li>
-					<li><a href="http://litmus.com/" target="_blank"><strong>Litmus</strong></a></li>
-					</ul>
-					</li>
-					
-					<li><p>Andere Quellen</p>
+					                        <ul>
+					                        <li><a href="http://kb.mailchimp.com/article/how-to-code-html-emails" target="_blank"><strong>Wie man HTML-E-Mails codiert (Mailchimp)</strong></a>: Wie HTML-E-Mails funktionieren, grundlegende Konzepte, bewährte Verfahren, Tipps und Tricks</li>
+					                        <li><a href="http://www.smashingmagazine.com/2010/01/19/design-and-build-an-email-newsletter-without-losing-your-mind/" target="_blank"><strong>Entwerfen und Erstellen von E-Mail-Newslettern, ohne den Verstand (und die Seele) zu verlieren</strong></a>:  Informationen, die Sie benötigen, um einen HTML-Newsletter zu planen, zu entwerfen und zu erstellen, der gut dargestellt wird</li>
+					                        <li><a href="http://mailchimp.com/resources/guides/email-marketing-field-guide/html/" target="_blank"><strong>E-Mail-Marketing-Handbuch (Mailchimp)</strong></a></li>
+					                        <li><a href="http://mattmedia.net/2007/08/23/8-html-email-tips-i-wish-i-knew-sooner/" target="_blank"><strong>8 HTML-E-Mail-Tipps, die ich gerne früher gekannt hätte</strong></a></li>
+					                        <li><a href="http://www.campaignmonitor.com/css/" target="_blank"><strong>Das ultimative Handbuch</a>: Von Kampagnen Monitor</strong></li>
+					                        <li><a href="http://css-tricks.com/using-css-in-html-emails-the-real-story/" target="_blank"><strong>CSS-Tricks: CSS in HTML-E-Mails verwenden</strong></a>: Einige "Ich habe es ja gesagt" Anmerkungen und Tipps zu HTML f&uuml;r E-Mails und CSS.</li>
+					                        </ul>
+					                        </li>
+					                        
+					                        <li><p>Prüfung</p>
 
-					<ul>
-					<li><a href="http://www.campaignmonitor.com/resources/will-it-work/email-clients/" target="_blank"><strong>Beliebte E-Mail-Clients von Campaign Monitor</strong></a></li>
-					</ul>
-					</li>',
-	
-	
-	'NEWSLETTER_NOTICE'			=> '<div class="phpinfo"><p>Die Einstellungen für diese Erweiterung befinden sich unter <strong>%1$s &#187; %2$s &#187; %3$s</strong>. <br />Bitte beachten Sie, dass bei der Ersteinrichtung bei der Einstellung des Zeitraums (z.B. wöchentlich) und des Formats (HTML) die erste automatische Newsletter-Übersicht sofort nach dem Speichern der Einstellungen versendet wird! <br />Dies ist notwendig, um die Synchronisation zu starten. Aus diesem Grund sollten Sie vor dem Einsatz der Erweiterung ein Testboard verwenden, um sicherzustellen, dass das Endergebnis des Newsletters dem gewünschten Aussehen entspricht.</p></div>',
-	'SS_HELPER_NOTY'			=> 'SiteSplat BBcore existiert nicht!<br />Laden Sie das <a href="https://sitesplat.com" target="_blank">BBcore</a> herunter und kopieren Sie den BBcore-Ordner in Ihren Sitesplat-Erweiterungsordner.',
+					                        <ul>
+					                        <li><a href="http://www.emailonacid.com/" target="_blank"><strong>E-Mail auf Acid testen</strong></a>: Kostenlose und kostenpflichtige Tests</li>
+					                        <li><a href="http://litmus.com/" target="_blank"><strong>Litmus</strong></a></li>
+					                        </ul>
+					                        </li>
+					                        
+					                        <li><p>Andere Quellen</p>
+
+					                        <ul>
+					                        <li><a href="http://www.campaignmonitor.com/resources/will-it-work/email-clients/" target="_blank"><strong>Beliebte E-Mail-Clients von Campaign Monitor</strong></a></li>
+					                        </ul>
+					                        </li>',
+
+
+'NEWSLETTER_NOTICE'                      => '<div class="phpinfo"><p>Die Einstellungen für diese Erweiterung befinden sich unter <strong>%1$s &#187; %2$s &#187; %3$s</strong>. <br />Bitte beachten Sie, dass bei der Ersteinrichtung bei der Einstellung des Zeitraums (z.B. wöchentlich) und des Formats (HTML) die erste automatische Newsletter-Übersicht sofort nach dem Speichern der Einstellungen versendet wird! <br />Dies ist notwendig, um die Synchronisation zu starten. Aus diesem Grund sollten Sie vor dem Einsatz der Erweiterung ein Testboard verwenden, um sicherzustellen, dass das Endergebnis des Newsletters dem gewünschten Aussehen entspricht.</p></div>',
+'SS_HELPER_NOTY'                         => 'SiteSplat BBcore existiert nicht!<br />Laden Sie das <a href="https://sitesplat.com" target="_blank">BBcore</a> herunter und kopieren Sie den BBcore-Ordner in Ihren Sitesplat-Erweiterungsordner.',
 ));
 
 // Description of Donations extension
 $lang = array_merge($lang, array(
-	'DESCRIPTION_PAGE'		=> 'Beschreibung',
-	'DESCRIPTION_NOTICE'	=> 'Anmerkung zur Erweiterung',
-	'ext_details' => array(
-		'details' => array(
-			'DESCRIPTION_1'	=> 'HTML-Newsletter',
-			'DESCRIPTION_2'	=> 'Gruppe auswählen',
-			'DESCRIPTION_3'	=> 'Wöchentliche / monatliche Nachrichtenübersicht',
-			'DESCRIPTION_4'	=> 'Sofort oder im Stapel senden',
-			'DESCRIPTION_5'	=> 'Übersicht Abonnenten',
-		),
-		'note' => array(
-			'NOTICE_1'		=> '<a href="https://github.com/ForumHulp/htmlemail" target="_blank">HTML-E-Mail-Erweiterung</a> ist erforderlich, um die HTML-Einstellungen zu aktivieren.',
-			'NOTICE_2'		=> 'phpBB 3.2 ready'
-		)
-	)
-));
+'DESCRIPTION_PAGE'                       => 'Beschreibung',
+'DESCRIPTION_NOTICE'                     => 'Anmerkung zur Erweiterung',
+'ext_details' => array(
+'details' => array(
+'DESCRIPTION_1'                          => 'HTML-Newsletter',
+'DESCRIPTION_2'                          => 'Gruppe auswählen',
+'DESCRIPTION_3'                          => 'Wöchentliche / monatliche Nachrichtenübersicht',
+'DESCRIPTION_4'                          => 'Sofort oder im Stapel senden',
+'DESCRIPTION_5'                          => 'Übersicht Abonnenten',
+),
+'note' => array(
+'NOTICE_1'                               => '<a href="https://github.com/ForumHulp/htmlemail" target="_blank">HTML-E-Mail-Erweiterung</a> ist erforderlich, um die HTML-Einstellungen zu aktivieren.',
+'NOTICE_2'                               => 'phpBB 3.2 ready'
+)
+)));

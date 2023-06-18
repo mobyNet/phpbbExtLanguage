@@ -1,10 +1,10 @@
-Betreff: Neueste Themenübersicht "{SITENAME}"
+Betreff: Neueste Themenï¿½bersicht "{SITENAME}"
 
 {SITENAME}
 
 Letzte Themen
 Hallo!
-Es ist Zeit für einen weiteren Newsletter.
+Es ist Zeit fÃ¼r einen weiteren Newsletter.
 Wir freuen uns darauf, Sie auf {BOARD_URL} wiederzusehen.
 
 Forum Thema
@@ -14,4 +14,4 @@ Forum Thema
 
 
 {EMAIL_SIG}
-Wenn Sie unseren Newsletter nicht mehr erhalten möchten, klicken Sie hier {NEWSLETTER_OPTOUT}
+Wenn Sie unseren Newsletter nicht mehr erhalten mï¿½chten, klicken Sie hier {NEWSLETTER_OPTOUT}
