@@ -1,4 +1,3 @@
-
 Hallo {SITENAME},
 the following users have received a reminder e-mail:
 
