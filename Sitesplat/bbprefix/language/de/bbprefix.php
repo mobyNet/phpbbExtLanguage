@@ -29,14 +29,14 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, [
-	'POSTING_PREFIXES'					=> 'Themenpräfixe',
-	'POSTING_PREFIXES_USED' 			=> 'Angewendete Themenpräfixe',
-	'POSTING_PREFIXES'					=> 'Prefixe',
+'POSTING_PREFIXES'                    => 'Themenpräfixe',
+'POSTING_PREFIXES_USED'               => 'Angewendete Themenpräfixe',
+'POSTING_PREFIXES'                    => 'Prefixe',
 
-	'PREFIXED_TOKEN_USERNAME'			=> '{USERNAME}',
-	'PREFIXED_TOKEN_USERNAME_EXPLAIN'	=> 'Dieses Token wird durch den Benutzernamen des Benutzers ersetzt, der das Präfix auf das Thema anwendet.',
-	'PREFIXED_TOKEN_POSTER'				=> '{POSTER}',
-	'PREFIXED_TOKEN_POSTER_EXPLAIN'		=> 'Dieses Token wird durch den Benutzernamen des Themenposters ersetzt.',
-	'PREFIXED_TOKEN_DATE'				=> '{DATE}',
-	'PREFIXED_TOKEN_DATE_EXPLAIN'		=> 'Dieses Token wird durch das Datum ersetzt, an dem das Präfix auf das Thema angewendet wurde.',
+'PREFIXED_TOKEN_USERNAME'             => '{USERNAME}',
+'PREFIXED_TOKEN_USERNAME_EXPLAIN'     => 'Dieses Token wird durch den Benutzernamen des Benutzers ersetzt, der das Präfix auf das Thema anwendet.',
+'PREFIXED_TOKEN_POSTER'               => '{POSTER}',
+'PREFIXED_TOKEN_POSTER_EXPLAIN'       => 'Dieses Token wird durch den Benutzernamen des Themenposters ersetzt.',
+'PREFIXED_TOKEN_DATE'                 => '{DATE}',
+'PREFIXED_TOKEN_DATE_EXPLAIN'         => 'Dieses Token wird durch das Datum ersetzt, an dem das Präfix auf das Thema angewendet wurde.',
 ]);
