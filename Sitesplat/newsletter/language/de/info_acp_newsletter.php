@@ -74,83 +74,82 @@ $lang = array_merge($lang, array(
 'NEWS_SUBSCRIBERS_INFO'                  => 'Abonnenten und Nachrichten Info',
 'NEWS_TRICKS_TITLE'                      => 'Tipps und Tricks',
 'ACP_NEWS_TRICK_EXPLAIN'                 => '<p>Begrenzt Ihr Internetanbieter die Anzahl der E-Mails, die Sie pro Tag versenden können?</p>
-									<p><strong>Natürlich tun sie das!</strong></p>
-									<p>Jeder ausgehende SMTP-Mailserver unterliegt den E-Mail-Richtlinien eines Anbieters, die stündliche und/oder tägliche E-Mail-Sendebeschränkungen enthalten. Diese Richtlinie bestimmt letztlich, wie viele E-Mails Sie pro Tag versenden können. Nachstehend finden Sie eine Liste der stündlichen und täglichen Sendebeschränkungen für die meisten großen ISPs, Webhosting-Unternehmen und Anbieter kostenloser E-Mail-Adressen.</p>
-									<p><strong><a title="E-Mail-Versandbeschränkungen für ISP, Webhosting und kostenlose E-Mail-Anbieter" href="http://group-mail.com/sending-email/email-sending-limits-for-isp-web-hosting-and-free-email-providers/">E-Mail-Versandbeschränkungen von ISP, Webhosting und kostenlosen E-Mail-Anbietern</a></strong></p>
-									<p>Wenn Sie versuchen, mehr E-Mails zu versenden, als die stündlichen oder täglichen E-Mail-Versandlimits Ihres Mailservers zulassen, werden Sie feststellen, dass Fehler zurückgegeben werden, nachdem die angegebene Quote erreicht ist, und zwar mit folgendem Inhalt:<em> </em>
-									</p>
-									<blockquote>
-										<p><em>Sie haben Ihre tägliche Sendequote erreicht</em>…</p>
-									</blockquote>
-									<p>Wenn Sie die täglichen <a title="SMTP-E-Mail-Versandlimits" href="http://group-mail.com/sending-email/email-sending-limits-for-isp-web-hosting-and-free-email-providers/">SMTP-E-Mail-Versandlimits</a> Ihres Providers überschreiten, müssen Sie in der Regel 24 Stunden warten, bevor Sie weitere E-Mails über diesen Server versenden können.</p>
-									<p>Aber was sind die stündlichen oder täglichen E-Mail-Versandgrenzen für <em>Ihren</em> E-Mail-Server?</p>
-									<ul>
-										<li>Das Versandlimit des Google Mail-Servers liegt bei ca. 100-150 E-Mails pro Tag, wenn eine Verbindung zum Server über einen Remote-E-Mail-Client hergestellt wird. Sie können 500 E-Mails pro Tag über den Gmail-SMTP-Server senden, wenn Sie in der Webschnittstelle angemeldet sind.</li>
-										<li>Der Comcast Mailserver erlaubt Privatkunden den Versand von 1.000 Nachrichten pro Tag. Comcast Geschäftskunden können 24.000 E-Mails pro Tag über den Comcast Mailserver für ausgehende SMTP-Nachrichten versenden.</li>
-										<li>Der Basis-E-Mail-Server von GoDaddy erlaubt nur 250 ausgehende E-Mails pro Tag, aber Sie können <a title="Senden Sie mehr E-Mails, indem Sie SMTP-Relays zu Ihrem GoDaddy-Konto hinzufügen" href="http://group-mail.com/sending-email/how-to-increase-your-godaddy-email-sending-limits/">mehr E-Mails senden, indem Sie SMTP-Relays zu Ihrem GoDaddy-Konto hinzufügen</a>
-										</li>
-									</ul>
-									<p>&nbsp;</p>
-									<p>Was soll man also tun, wenn man seinen monatlichen E-Mail-Newsletter an 5.000 eifrige Abonnenten verschicken muss, sein ISP aber ein tägliches Versandlimit von 500 E-Mails pro Tag hat?</p>
-									<p><strong>Was können Sie tun, wenn Ihr Mailserver Grenzen hat, die die Größe Ihrer Mailingliste nicht zulassen?</strong>
-									</p>
-									<p>Wenn Ihr aktueller SMTP-E-Mail-Server die Größe Ihrer E-Mail-Liste oder die Häufigkeit des Versands nicht unterstützt, haben Sie eine Reihe von Möglichkeiten:</p>
-									<p style="padding-left: 30px;">1. Wenden Sie sich an den Hoster Ihres Postausgangsservers und fragen Sie, ob er ein Geschäftskonto anbietet, mit dem Sie mehr E-Mails pro Tag versenden können, um Ihr Unternehmen zu unterstützen.</p>
-									<p style="padding-left: 30px;">2. Verwenden Sie GroupMails <a title="E-Mail ohne externen SMTP-Mailserver versenden" href="http://group-mail.com/sending-email/sending-email-without-an-external-smtp-mail-server/">Direktversand-Option</a>, mit der Sie Ihren externen SMTP-Server ganz umgehen und E-Mails direkt von Ihrem Computer an Ihre Empfänger senden können, indem Sie GroupMails eigene interne SMTP-Engine verwenden.</p>
-									<p style="padding-left: 30px;">3. Verwenden Sie einen ausgehenden SMTP-Dienst wie <a title="SMTP2Go outgoing relay pricing" href="http://groupmail.smtp2go.com">SMTP2Go</a> für die Weiterleitung Ihrer großen E-Mail-Kampagnen.</p>
-									<p style="padding-left: 30px;">4. Suchen Sie sich einen Webhosting-Anbieter, dessen tägliches E-Mail-Versandlimit Ihren Anforderungen entspricht.</p>
-									<p style="padding-left: 30px;">5. Richten Sie Ihren eigenen <a href="http://www.msexchange.org/tutorials/MF002.html">MS Exchange Server</a> ein und konfigurieren Sie ihn für den SMTP-E-Mail-Versand.</p>
-									<p>GroupMail ermöglicht es Ihnen zwar, E-Mail-Listen von <strong>unbegrenzter</strong> Größe zu versenden und zu verwalten; der Erfolg der E-Mail-Zustellung an große Gruppen hängt jedoch letztendlich von den Sendebeschränkungen ab, die in den E-Mail-Versandrichtlinien des von Ihnen verwendeten SMTP-Mailservers festgelegt sind.</p>
-									<p><strong>Ähnliche Artikel könnten für Sie interessant sein:</strong>
-									</p>
-									<p><a title="E-Mail-Versandbeschränkungen von ISPs, Webhosting- und kostenlosen E-Mail-Anbietern" href="http://group-mail.com/sending-email/email-sending-limits-for-isp-web-hosting-and-free-email-providers/">E-Mail-Versandlimits für ISPs, Webhosting und kostenlose E-Mail-Anbieter</a>
-									</p>
-									<p><a title="Allgemeine E-Mail-Fehlercodebeschreibungen und -behebungen" href="http://group-mail.com/email-error-codes/common-email-error-codes/">Allgemeine E-Mail-Fehlercode-Beschreibungen und -Lösungen</a>
-									</p>
-									<p><a title="Kostenlose E-Mail-Newsletter und Marketing-Software und -Dienste" href="http://group-mail.com/email-marketing/free-email-newsletter-and-marketing-software-and-services/">Kostenlose E-Mail-Newsletter und Marketing-Software und -Dienste</a>
-									</p>
-									<p><a title="E-Mail-Einstellungen für die gängigsten E-Mail-Server-Hosts" href="http://group-mail.com/category/email-settings/">E-Mail-Einstellungen für die gängigsten E-Mail-Server-Hosts</a>
-									</p>
-									<p><a title="Schritt-für-Schritt-Anleitung für die Einrichtung und den Versand von E-Mails" href="http://group-mail.com/getting-started-with-groupmail/step-by-step-guide-for-email-setup-and-delivery/">Schritt-für-Schritt-Anleitung für die Einrichtung und den Versand von E-Mails</a>
-									</p>
-									<p>&nbsp;</p>
-									<hr>
-									<p></p>',
-
-'EXT_NEWS_TUTORIALS_TITLE'               => 'Anleitungen',
-'EXT_NEWS_TUTORIALS_EXPLAIN'             => '<li><p>Templates</p>
-					                        <ul>
-					                        <li><a href="http://htmlemailboilerplate.com/" target="_blank"><strong>HTML f&uuml;r Email - Boilerplate</strong></a>: Ein guter <strong>Startpunkt</strong> für die Codierung von E-Mails.</li>
-					                        <li><a href="http://www.campaignmonitor.com/templates/" target="_blank"><strong>Vorlage der Templates</strong></a>: Template builder + kostenlos herunterladbare  templates</li>
-					                        </ul>
-					                        </li>
-					                        
-					                        <li><p>Anleitungen &amp; Guides</p>
-
-					                        <ul>
-					                        <li><a href="http://kb.mailchimp.com/article/how-to-code-html-emails" target="_blank"><strong>Wie man HTML-E-Mails codiert (Mailchimp)</strong></a>: Wie HTML-E-Mails funktionieren, grundlegende Konzepte, bewährte Verfahren, Tipps und Tricks</li>
-					                        <li><a href="http://www.smashingmagazine.com/2010/01/19/design-and-build-an-email-newsletter-without-losing-your-mind/" target="_blank"><strong>Entwerfen und Erstellen von E-Mail-Newslettern, ohne den Verstand (und die Seele) zu verlieren</strong></a>:  Informationen, die Sie benötigen, um einen HTML-Newsletter zu planen, zu entwerfen und zu erstellen, der gut dargestellt wird</li>
-					                        <li><a href="http://mailchimp.com/resources/guides/email-marketing-field-guide/html/" target="_blank"><strong>E-Mail-Marketing-Handbuch (Mailchimp)</strong></a></li>
-					                        <li><a href="http://mattmedia.net/2007/08/23/8-html-email-tips-i-wish-i-knew-sooner/" target="_blank"><strong>8 HTML-E-Mail-Tipps, die ich gerne früher gekannt hätte</strong></a></li>
-					                        <li><a href="http://www.campaignmonitor.com/css/" target="_blank"><strong>Das ultimative Handbuch</a>: Von Kampagnen Monitor</strong></li>
-					                        <li><a href="http://css-tricks.com/using-css-in-html-emails-the-real-story/" target="_blank"><strong>CSS-Tricks: CSS in HTML-E-Mails verwenden</strong></a>: Einige "Ich habe es ja gesagt" Anmerkungen und Tipps zu HTML f&uuml;r E-Mails und CSS.</li>
-					                        </ul>
-					                        </li>
-					                        
-					                        <li><p>Prüfung</p>
-
-					                        <ul>
-					                        <li><a href="http://www.emailonacid.com/" target="_blank"><strong>E-Mail auf Acid testen</strong></a>: Kostenlose und kostenpflichtige Tests</li>
-					                        <li><a href="http://litmus.com/" target="_blank"><strong>Litmus</strong></a></li>
-					                        </ul>
-					                        </li>
-					                        
-					                        <li><p>Andere Quellen</p>
-
-					                        <ul>
-					                        <li><a href="http://www.campaignmonitor.com/resources/will-it-work/email-clients/" target="_blank"><strong>Beliebte E-Mail-Clients von Campaign Monitor</strong></a></li>
-					                        </ul>
-					                        </li>',
+                                            <p><strong>Natürlich tun sie das!</strong></p>
+                                            <p>Jeder ausgehende SMTP-Mailserver unterliegt den E-Mail-Richtlinien eines Anbieters, die stündliche und/oder tägliche E-Mail-Sendebeschränkungen enthalten. Diese Richtlinie bestimmt letztlich, wie viele E-Mails Sie pro Tag versenden können. Nachstehend finden Sie eine Liste der stündlichen und täglichen Sendebeschränkungen für die meisten großen ISPs, Webhosting-Unternehmen und Anbieter kostenloser E-Mail-Adressen.</p>
+                                            <p><strong><a title="E-Mail-Versandbeschränkungen für ISP, Webhosting und kostenlose E-Mail-Anbieter" href="http://group-mail.com/sending-email/email-sending-limits-for-isp-web-hosting-and-free-email-providers/">E-Mail-Versandbeschränkungen von ISP, Webhosting und kostenlosen E-Mail-Anbietern</a></strong></p>
+                                            <p>Wenn Sie versuchen, mehr E-Mails zu versenden, als die stündlichen oder täglichen E-Mail-Versandlimits Ihres Mailservers zulassen, werden Sie feststellen, dass Fehler zurückgegeben werden, nachdem die angegebene Quote erreicht ist, und zwar mit folgendem Inhalt:<em> </em>
+                                            </p>
+                                            <blockquote>
+                                            	<p><em>Sie haben Ihre tägliche Sendequote erreicht</em>…</p>
+                                            </blockquote>
+                                            <p>Wenn Sie die täglichen <a title="SMTP-E-Mail-Versandlimits" href="http://group-mail.com/sending-email/email-sending-limits-for-isp-web-hosting-and-free-email-providers/">SMTP-E-Mail-Versandlimits</a> Ihres Providers überschreiten, müssen Sie in der Regel 24 Stunden warten, bevor Sie weitere E-Mails über diesen Server versenden können.</p>
+                                            <p>Aber was sind die stündlichen oder täglichen E-Mail-Versandgrenzen für <em>Ihren</em> E-Mail-Server?</p>
+                                            <ul>
+                                            	<li>Das Versandlimit des Google Mail-Servers liegt bei ca. 100-150 E-Mails pro Tag, wenn eine Verbindung zum Server über einen Remote-E-Mail-Client hergestellt wird. Sie können 500 E-Mails pro Tag über den Gmail-SMTP-Server senden, wenn Sie in der Webschnittstelle angemeldet sind.</li>
+                                            	<li>Der Comcast Mailserver erlaubt Privatkunden den Versand von 1.000 Nachrichten pro Tag. Comcast Geschäftskunden können 24.000 E-Mails pro Tag über den Comcast Mailserver für ausgehende SMTP-Nachrichten versenden.</li>
+                                            	<li>Der Basis-E-Mail-Server von GoDaddy erlaubt nur 250 ausgehende E-Mails pro Tag, aber Sie können <a title="Senden Sie mehr E-Mails, indem Sie SMTP-Relays zu Ihrem GoDaddy-Konto hinzufügen" href="http://group-mail.com/sending-email/how-to-increase-your-godaddy-email-sending-limits/">mehr E-Mails senden, indem Sie SMTP-Relays zu Ihrem GoDaddy-Konto hinzufügen</a>
+                                            	</li>
+                                            </ul>
+                                            <p>&nbsp;</p>
+                                            <p>Was soll man also tun, wenn man seinen monatlichen E-Mail-Newsletter an 5.000 eifrige Abonnenten verschicken muss, sein ISP aber ein tägliches Versandlimit von 500 E-Mails pro Tag hat?</p>
+                                            <p><strong>Was können Sie tun, wenn Ihr Mailserver Grenzen hat, die die Größe Ihrer Mailingliste nicht zulassen?</strong>
+                                            </p>
+                                            <p>Wenn Ihr aktueller SMTP-E-Mail-Server die Größe Ihrer E-Mail-Liste oder die Häufigkeit des Versands nicht unterstützt, haben Sie eine Reihe von Möglichkeiten:</p>
+                                            <p style="padding-left: 30px;">1. Wenden Sie sich an den Hoster Ihres Postausgangsservers und fragen Sie, ob er ein Geschäftskonto anbietet, mit dem Sie mehr E-Mails pro Tag versenden können, um Ihr Unternehmen zu unterstützen.</p>
+                                            <p style="padding-left: 30px;">2. Verwenden Sie GroupMails <a title="E-Mail ohne externen SMTP-Mailserver versenden" href="http://group-mail.com/sending-email/sending-email-without-an-external-smtp-mail-server/">Direktversand-Option</a>, mit der Sie Ihren externen SMTP-Server ganz umgehen und E-Mails direkt von Ihrem Computer an Ihre Empfänger senden können, indem Sie GroupMails eigene interne SMTP-Engine verwenden.</p>
+                                            <p style="padding-left: 30px;">3. Verwenden Sie einen ausgehenden SMTP-Dienst wie <a title="SMTP2Go outgoing relay pricing" href="http://groupmail.smtp2go.com">SMTP2Go</a> für die Weiterleitung Ihrer großen E-Mail-Kampagnen.</p>
+                                            <p style="padding-left: 30px;">4. Suchen Sie sich einen Webhosting-Anbieter, dessen tägliches E-Mail-Versandlimit Ihren Anforderungen entspricht.</p>
+                                            <p style="padding-left: 30px;">5. Richten Sie Ihren eigenen <a href="http://www.msexchange.org/tutorials/MF002.html">MS Exchange Server</a> ein und konfigurieren Sie ihn für den SMTP-E-Mail-Versand.</p>
+                                            <p>GroupMail ermöglicht es Ihnen zwar, E-Mail-Listen von <strong>unbegrenzter</strong> Größe zu versenden und zu verwalten; der Erfolg der E-Mail-Zustellung an große Gruppen hängt jedoch letztendlich von den Sendebeschränkungen ab, die in den E-Mail-Versandrichtlinien des von Ihnen verwendeten SMTP-Mailservers festgelegt sind.</p>
+                                            <p><strong>Ähnliche Artikel könnten für Sie interessant sein:</strong>
+                                            </p>
+                                            <p><a title="E-Mail-Versandbeschränkungen von ISPs, Webhosting- und kostenlosen E-Mail-Anbietern" href="http://group-mail.com/sending-email/email-sending-limits-for-isp-web-hosting-and-free-email-providers/">E-Mail-Versandlimits für ISPs, Webhosting und kostenlose E-Mail-Anbieter</a>
+                                            </p>
+                                            <p><a title="Allgemeine E-Mail-Fehlercodebeschreibungen und -behebungen" href="http://group-mail.com/email-error-codes/common-email-error-codes/">Allgemeine E-Mail-Fehlercode-Beschreibungen und -Lösungen</a>
+                                            </p>
+                                            <p><a title="Kostenlose E-Mail-Newsletter und Marketing-Software und -Dienste" href="http://group-mail.com/email-marketing/free-email-newsletter-and-marketing-software-and-services/">Kostenlose E-Mail-Newsletter und Marketing-Software und -Dienste</a>
+                                            </p>
+                                            <p><a title="E-Mail-Einstellungen für die gängigsten E-Mail-Server-Hosts" href="http://group-mail.com/category/email-settings/">E-Mail-Einstellungen für die gängigsten E-Mail-Server-Hosts</a>
+                                            </p>
+                                            <p><a title="Schritt-für-Schritt-Anleitung für die Einrichtung und den Versand von E-Mails" href="http://group-mail.com/getting-started-with-groupmail/step-by-step-guide-for-email-setup-and-delivery/">Schritt-für-Schritt-Anleitung für die Einrichtung und den Versand von E-Mails</a>
+                                            </p>
+                                            <p>&nbsp;</p>
+                                            <hr>
+                                            <p></p>',
+                                            
+                                            'EXT_NEWS_TUTORIALS_TITLE'               => 'Anleitungen',
+                                            'EXT_NEWS_TUTORIALS_EXPLAIN'             => '<li><p>Templates</p>
+                                            <ul>
+                                            <li><a href="http://htmlemailboilerplate.com/" target="_blank"><strong>HTML f&uuml;r Email - Boilerplate</strong></a>: Ein guter <strong>Startpunkt</strong> für die Codierung von E-Mails.</li>
+                                            <li><a href="http://www.campaignmonitor.com/templates/" target="_blank"><strong>Vorlage der Templates</strong></a>: Template builder + kostenlos herunterladbare  templates</li>
+                                            </ul>
+                                            </li>
+                                            
+                                            <li><p>Anleitungen &amp; Guides</p>
+                                            <ul>
+                                            <li><a href="http://kb.mailchimp.com/article/how-to-code-html-emails" target="_blank"><strong>Wie man HTML-E-Mails codiert (Mailchimp)</strong></a>: Wie HTML-E-Mails funktionieren, grundlegende Konzepte, bewährte Verfahren, Tipps und Tricks</li>
+                                            <li><a href="http://www.smashingmagazine.com/2010/01/19/design-and-build-an-email-newsletter-without-losing-your-mind/" target="_blank"><strong>Entwerfen und Erstellen von E-Mail-Newslettern, ohne den Verstand (und die Seele) zu verlieren</strong></a>:  Informationen, die Sie benötigen, um einen HTML-Newsletter zu planen, zu entwerfen und zu erstellen, der gut dargestellt wird</li>
+                                            <li><a href="http://mailchimp.com/resources/guides/email-marketing-field-guide/html/" target="_blank"><strong>E-Mail-Marketing-Handbuch (Mailchimp)</strong></a></li>
+                                            <li><a href="http://mattmedia.net/2007/08/23/8-html-email-tips-i-wish-i-knew-sooner/" target="_blank"><strong>8 HTML-E-Mail-Tipps, die ich gerne früher gekannt hätte</strong></a></li>
+                                            <li><a href="http://www.campaignmonitor.com/css/" target="_blank"><strong>Das ultimative Handbuch</a>: Von Kampagnen Monitor</strong></li>
+                                            <li><a href="http://css-tricks.com/using-css-in-html-emails-the-real-story/" target="_blank"><strong>CSS-Tricks: CSS in HTML-E-Mails verwenden</strong></a>: Einige "Ich habe es ja gesagt" Anmerkungen und Tipps zu HTML f&uuml;r E-Mails und CSS.</li>
+                                            </ul>
+                                            </li>
+                                            
+                                            <li><p>Prüfung</p>
+                                            
+                                            <ul>
+                                            <li><a href="http://www.emailonacid.com/" target="_blank"><strong>E-Mail auf Acid testen</strong></a>: Kostenlose und kostenpflichtige Tests</li>
+                                            <li><a href="http://litmus.com/" target="_blank"><strong>Litmus</strong></a></li>
+                                            </ul>
+                                            </li>
+                                            
+                                            <li><p>Andere Quellen</p>
+                                            
+                                            <ul>
+                                            <li><a href="http://www.campaignmonitor.com/resources/will-it-work/email-clients/" target="_blank"><strong>Beliebte E-Mail-Clients von Campaign Monitor</strong></a></li>
+                                            </ul>
+                                            </li>',
 
 
 'NEWSLETTER_NOTICE'                      => '<div class="phpinfo"><p>Die Einstellungen für diese Erweiterung befinden sich unter <strong>%1$s &#187; %2$s &#187; %3$s</strong>. <br />Bitte beachten Sie, dass bei der Ersteinrichtung bei der Einstellung des Zeitraums (z.B. wöchentlich) und des Formats (HTML) die erste automatische Newsletter-Übersicht sofort nach dem Speichern der Einstellungen versendet wird! <br />Dies ist notwendig, um die Synchronisation zu starten. Aus diesem Grund sollten Sie vor dem Einsatz der Erweiterung ein Testboard verwenden, um sicherzustellen, dass das Endergebnis des Newsletters dem gewünschten Aussehen entspricht.</p></div>',
