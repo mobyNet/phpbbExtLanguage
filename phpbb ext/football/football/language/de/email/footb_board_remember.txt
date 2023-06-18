@@ -1,4 +1,3 @@
-
 Hallo {SITENAME},
 Folgende Tipper haben eine Erinnerungs-Mail erhalten:
 
