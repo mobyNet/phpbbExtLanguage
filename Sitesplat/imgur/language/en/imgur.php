@@ -1,23 +1,21 @@
 <?php
 /**
-*
-* Imgur - forum images uploader
-*
-* @copyright (c) 2015 SiteSplat All rights reserved
-* @license Proprietary
-*
-*/
+ *
+ * Imgur - forum images uploader
+ *
+ * @copyright (c) 2015 SiteSplat All rights reserved
+ * @license Proprietary
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -38,29 +36,29 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'IMGUR_CLIENT_ID'			=> 'IMGUR Client ID',
-	'IMGUR_CLIENT_ID_EXPLAIN'	=> 'You need to register an Imgur app to get the <strong>Client ID</strong>.<br /> For creating a new App go to <a href="https://api.imgur.com/oauth2/addclient" target="_blank">this page</a>. Then enter the Client ID here.',
-	
-	'IMGUR_UPLOAD_TITLE'		=> 'Upload an Image',
-	'IMGUR_UPLOAD_MAIN'			=> 'Upload an Image to use in topic via <a href="https://imgur.com" target="_blank">IMGUR</a> service. The image is automatically inserted in the post field above once submitted',
-	'IMGUR_UPLOAD'				=> 'Upload Image now',
-	'IMGUR_SELECT'				=> 'Select Image',
-    'IMGUR_COPY'				=> 'Copy',
-       
-	'IMGUR_OUTPUT_LINK'			=> 'Direct link',
-	'IMGUR_OUTPUT_IMAGE'		=> 'BBcode tag',
-	'IMGUR_OUTPUT_IMAGE_DELETE'	=> 'Deletion Link',
-	'IMGUR_OUTPUT_MARKDOWN'	    => 'Markdown',
-	'MARKDOWN_WHATIS'	        => '<a href="//themeforest.net/user/themesplat/portfolio?ref=ThemeSplat" title="for use with &#34;BBmarkdown&#34; Premium extension for phpBB Premium themes" target="_blank"><i class="fa fa-question-circle"></i></a>',
-	'IMGUR_OUTPUT_PLACEHOLDER'	=> 'Waiting image upload...',
+'IMGUR_CLIENT_ID'                     => 'IMGUR Client ID',
+'IMGUR_CLIENT_ID_EXPLAIN'             => 'You need to register an Imgur app to get the <strong>Client ID</strong>.<br /> For creating a new App go to <a href="https://api.imgur.com/oauth2/addclient" target="_blank">this page</a>. Then enter the Client ID here.',
 
-	'IMGUR_SIGNATURE'	=> 'Allow use of IMGUR image upload in user signatures',
+'IMGUR_UPLOAD_TITLE'                  => 'Upload an Image',
+'IMGUR_UPLOAD_MAIN'                   => 'Upload an Image to use in topic via <a href="https://imgur.com" target="_blank">IMGUR</a> service. The image is automatically inserted in the post field above once submitted',
+'IMGUR_UPLOAD'                        => 'Upload Image now',
+'IMGUR_SELECT'                        => 'Select Image',
+'IMGUR_COPY'                          => 'Copy',
 
-	'ALLOW_IMGUR'					=> 'Allow IMGUR avatars',
-	'AVATAR_DRIVER_IMGUR_TITLE'		=> 'IMGUR avatar',
-	'AVATAR_DRIVER_IMGUR_EXPLAIN'	=> '',
-	'IMGUR_AVATAR'					=> 'IMGUR avatar',
+'IMGUR_OUTPUT_LINK'                   => 'Direct link',
+'IMGUR_OUTPUT_IMAGE'                  => 'BBcode tag',
+'IMGUR_OUTPUT_IMAGE_DELETE'           => 'Deletion Link',
+'IMGUR_OUTPUT_MARKDOWN'               => 'Markdown',
+'MARKDOWN_WHATIS'                     => '<a href="//themeforest.net/user/themesplat/portfolio?ref=ThemeSplat" title="for use with &#34;BBmarkdown&#34; Premium extension for phpBB Premium themes" target="_blank"><i class="fa fa-question-circle"></i></a>',
+'IMGUR_OUTPUT_PLACEHOLDER'            => 'Waiting image upload...',
 
-	'IMGUR_QUICKREPLY'	=> 'Allow IMGUR in Snappy Smart Reply',
+'IMGUR_SIGNATURE'                     => 'Allow use of IMGUR image upload in user signatures',
+
+'ALLOW_IMGUR'                         => 'Allow IMGUR avatars',
+'AVATAR_DRIVER_IMGUR_TITLE'           => 'IMGUR avatar',
+'AVATAR_DRIVER_IMGUR_EXPLAIN'         => '',
+'IMGUR_AVATAR'                        => 'IMGUR avatar',
+
+'IMGUR_QUICKREPLY'                    => 'Allow IMGUR in Snappy Smart Reply',
 
 ));
