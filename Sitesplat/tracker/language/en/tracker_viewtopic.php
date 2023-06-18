@@ -35,5 +35,5 @@ if (empty($lang) || !is_array($lang))
 
 
 $lang = array_merge($lang, array(
-	'CREATE_TICKET'	=> 'Create ticket from this topic',
+'CREATE_TICKET'      => 'Create ticket from this topic',
 ));
