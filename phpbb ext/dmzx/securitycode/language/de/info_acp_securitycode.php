@@ -1,19 +1,17 @@
 <?php
 /**
-*
-* @package phpBB Extension - Security Code
-* @copyright (c) 2019 dmzx - https://www.dmzx-web.net
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
+ *
+ * @package phpBB Extension - Security Code
+ * @copyright (c) 2019 dmzx - https://www.dmzx-web.net
+ * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+ *
+ */
 
-if (!defined('IN_PHPBB'))
-{
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = [];
 }
 
@@ -33,9 +31,9 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, [
-	'ACP_SECURITYCODE_TITLE'		=> 'Sicherheitscode',
-	'ACP_SECURITYCODE_SETTINGS'		=> 'Einstellungen',
-	//Log
-	'LOG_SECURITYCODE_SAVED'		=> '<strong>Sicherheitscode Einstellungen gespeichert.</strong>',
-	'SECURITYCODE_ERROR_DISABLE'	=> 'Sie können diese Erweiterung nicht deaktivieren (Lizenz ungültig).'
+'ACP_SECURITYCODE_TITLE'         => 'Sicherheitscode',
+'ACP_SECURITYCODE_SETTINGS'      => 'Einstellungen',
+//Log
+'LOG_SECURITYCODE_SAVED'         => '<strong>Sicherheitscode Einstellungen gespeichert.</strong>',
+'SECURITYCODE_ERROR_DISABLE'     => 'Sie können diese Erweiterung nicht deaktivieren (Lizenz ungültig).'
 ]);

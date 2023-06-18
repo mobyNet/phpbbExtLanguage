@@ -1,19 +1,17 @@
 <?php
 /**
-*
-* @package phpBB Extension - Security Code
-* @copyright (c) 2019 dmzx - https://www.dmzx-web.net
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
+ *
+ * @package phpBB Extension - Security Code
+ * @copyright (c) 2019 dmzx - https://www.dmzx-web.net
+ * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+ *
+ */
 
-if (!defined('IN_PHPBB'))
-{
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = [];
 }
 
@@ -34,9 +32,9 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, [
-	'SECURITYCODE_AVAILABLE'	=> 'Sicherheitscode: <strong style="color:green;">%1$s</strong>',
-	'SECURITYCODE_ERROR'		=> 'Der eingegebene Sicherheitscode war falsch.',
-	'SECURITYCODE_TITLE'		=> 'Sicherheitscode',
-	'SECURITYCODE_LICENSE' 		=> 'Lizenz ungültig',
-	'SECURITYCODE_EXPLAIN'		=> 'Geben Sie den Sicherheitscode ein. Alle Buchstaben unterscheiden zwischen Groß- und Kleinschreibung.',
+'SECURITYCODE_AVAILABLE'      => 'Sicherheitscode: <strong style="color:green;">%1$s</strong>',
+'SECURITYCODE_ERROR'          => 'Der eingegebene Sicherheitscode war falsch.',
+'SECURITYCODE_TITLE'          => 'Sicherheitscode',
+'SECURITYCODE_LICENSE'        => 'Lizenz ungültig',
+'SECURITYCODE_EXPLAIN'        => 'Geben Sie den Sicherheitscode ein. Alle Buchstaben unterscheiden zwischen Groß- und Kleinschreibung.',
 ]);
