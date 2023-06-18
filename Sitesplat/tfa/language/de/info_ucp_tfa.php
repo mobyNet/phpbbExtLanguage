@@ -1,22 +1,20 @@
 <?php
 /**
-*
-* @package Two Factor Authentication
-* @copyright (c) 2016 SiteSplat All rights reserved
-* @license Proprietary
-*
-*/
+ *
+ * @package Two Factor Authentication
+ * @copyright (c) 2016 SiteSplat All rights reserved
+ * @license Proprietary
+ *
+ */
 
 /**
  * DO NOT CHANGE
  */
-if (!defined('IN_PHPBB'))
-{
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -36,10 +34,8 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$lang = array_merge(
-	$lang, array(
-		'UCP_TFA'			=> '2-stufige Authentifizierung',
-		'UCP_TFA_MANAGE'	=> 'Zwei-Faktor-Authentifizierung',
+$lang = array_merge($lang,array(
+'UCP_TFA'            => '2-stufige Authentifizierung',
+'UCP_TFA_MANAGE'     => 'Zwei-Faktor-Authentifizierung',
 
-	)
-);
+));
