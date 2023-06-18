@@ -1,19 +1,17 @@
 <?php
 /**
-*
-* @package phpBB Extension - Security Code
-* @copyright (c) 2019 dmzx - https://www.dmzx-web.net
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
+ *
+ * @package phpBB Extension - Security Code
+ * @copyright (c) 2019 dmzx - https://www.dmzx-web.net
+ * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+ *
+ */
 
-if (!defined('IN_PHPBB'))
-{
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = [];
 }
 
@@ -34,20 +32,20 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, [
-	'SECURITYCODE_ALLOW'						=> 'Enable Security Code',
-	'SECURITYCODE_ALLOW_EXPLAIN'				=> 'Switch Security Code on for registration.',
-	'SECURITYCODE_MESSAGE'						=> 'Show message',
-	'SECURITYCODE_MESSAGE_EXPLAIN'				=> 'Enter the message you want display on registration page.',
-	'SECURITYCODE_VALUE'						=> 'Characters of code',
-	'SECURITYCODE_VALUE_EXPLAIN'				=> 'Set value of characters of Security Code.<br />Minimum is 6 and maximal is 40 characters.',
-	'SECURITYCODE_SAVED'						=> 'Security Code settings saved.',
-	'SECURITYCODE_LICENSE' 						=> 'License invalid',
-	'SECURITYCODE_FILE_EXT'						=> 'Set file to activate the Security Code extension',
-	'SECURITYCODE_FILE_EXT_EXPLAIN'				=> '<span style="color:#BF0000;"><strong>Request an active .json file name and set it here.</strong></span><br>
-	You can make a key at <a href="https://www.dmzx-web.net/keyinput">dmzx</a>.<br> Example: example.json (including .json)',
-	'SECURITYCODE_FILE_EXT_SET'					=> '<span style="color:#00BF00;">Security Code .json file is activated.</span>',
-	'SECURITYCODE_INFO_FILE'					=> 'Activation information',
-	'SECURITYCODE_INFO_FILE_EXPLAIN'			=> 'Make your key <a href="https://www.dmzx-web.net/keyinput"> >> Here << </a>',
-	'SECURITYCODE_EMPTY_FIELD'					=> 'Field cannot be empty.',
-	'SECURITYCODE_NO_JSON'						=> 'Key must have .json at the end.',
+'SECURITYCODE_ALLOW'                         => 'Enable Security Code',
+'SECURITYCODE_ALLOW_EXPLAIN'                 => 'Switch Security Code on for registration.',
+'SECURITYCODE_MESSAGE'                       => 'Show message',
+'SECURITYCODE_MESSAGE_EXPLAIN'               => 'Enter the message you want display on registration page.',
+'SECURITYCODE_VALUE'                         => 'Characters of code',
+'SECURITYCODE_VALUE_EXPLAIN'                 => 'Set value of characters of Security Code.<br />Minimum is 6 and maximal is 40 characters.',
+'SECURITYCODE_SAVED'                         => 'Security Code settings saved.',
+'SECURITYCODE_LICENSE'                       => 'License invalid',
+'SECURITYCODE_FILE_EXT'                      => 'Set file to activate the Security Code extension',
+'SECURITYCODE_FILE_EXT_EXPLAIN'              => '<span style="color:#BF0000;"><strong>Request an active .json file name and set it here.</strong></span><br>
+                                                You can make a key at <a href="https://www.dmzx-web.net/keyinput">dmzx</a>.<br> Example: example.json (including .json)',
+'SECURITYCODE_FILE_EXT_SET'                  => '<span style="color:#00BF00;">Security Code .json file is activated.</span>',
+'SECURITYCODE_INFO_FILE'                     => 'Activation information',
+'SECURITYCODE_INFO_FILE_EXPLAIN'             => 'Make your key <a href="https://www.dmzx-web.net/keyinput"> >> Here << </a>',
+'SECURITYCODE_EMPTY_FIELD'                   => 'Field cannot be empty.',
+'SECURITYCODE_NO_JSON'                       => 'Key must have .json at the end.',
 ]);

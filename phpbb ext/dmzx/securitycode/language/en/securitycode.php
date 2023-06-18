@@ -1,19 +1,17 @@
 <?php
 /**
-*
-* @package phpBB Extension - Security Code
-* @copyright (c) 2019 dmzx - https://www.dmzx-web.net
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
+ *
+ * @package phpBB Extension - Security Code
+ * @copyright (c) 2019 dmzx - https://www.dmzx-web.net
+ * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+ *
+ */
 
-if (!defined('IN_PHPBB'))
-{
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = [];
 }
 
@@ -34,9 +32,9 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, [
-	'SECURITYCODE_AVAILABLE'	=> 'Security Code: %1$s',
-	'SECURITYCODE_ERROR'		=> 'The security code you entered was incorrect.',
-	'SECURITYCODE_TITLE'		=> 'Security Code',
-	'SECURITYCODE_LICENSE' 		=> 'License invalid',
-	'SECURITYCODE_EXPLAIN'		=> 'Enter the Security Code. All letters are case sensitive.',
+'SECURITYCODE_AVAILABLE'       => 'Security Code: %1$s',
+'SECURITYCODE_ERROR'           => 'The security code you entered was incorrect.',
+'SECURITYCODE_TITLE'           => 'Security Code',
+'SECURITYCODE_LICENSE'         => 'License invalid',
+'SECURITYCODE_EXPLAIN'         => 'Enter the Security Code. All letters are case sensitive.',
 ]);
