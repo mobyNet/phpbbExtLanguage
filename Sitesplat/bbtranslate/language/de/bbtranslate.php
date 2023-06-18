@@ -18,8 +18,8 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'BBTRANSLATE_SELECT' => 'Übersetzen',
-	'TOTAL_TRANSLATIONS'	=> array(
-		2	=> 'Übersetzungen insgesamt<strong>%d</strong>',
-	),
+'BBTRANSLATE_SELECT'               => 'Übersetzen',
+'TOTAL_TRANSLATIONS'=> array(
+2	                              => 'Übersetzungen insgesamt<strong>%d</strong>',
+),
 ));
