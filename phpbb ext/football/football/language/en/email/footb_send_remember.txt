@@ -3,7 +3,7 @@ Hallo {USERNAME},
 you have not yet bet {MATCHDAY}. matchday.
 Please bet until {LEAGUE} delivery {DELIVERY}.
 
- 
+
 Link to {SITENAME}: {U_BOARD}.
 
 
