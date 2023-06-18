@@ -1,22 +1,20 @@
 <?php
 /**
-*
-* @package phpBB Extension - Who Visited This Topic
-* @copyright (c) 2016 dmzx - http://www.dmzx-web.net
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
+ *
+ * @package phpBB Extension - Who Visited This Topic
+ * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
+ * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -37,9 +35,9 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'WHOVISITEDTHISTOPIC_INDEX'					=> 'Wer hat dieses Thema besucht',
-	'ACL_U_WHOVISITEDTHISTOPIC'					=> 'Kann unter Themen, "Wer hat ein Thema besucht" sehen',
-	'ACL_U_WHOVISITEDTHISTOPIC_COUNT'			=> 'Kann den Beitrag Z&auml;hler bei "Wer hat ein Thema besucht" sehen',
-	'ACL_U_WHOVISITEDTHISTOPIC_PROFILE'			=> 'Kann im Profil sehen, "Wer hat ein Thema besucht"',
-	'ACL_U_WHOVISITEDTHISTOPIC_SHOW_AVATAR'		=> 'Kann die Avatare unter Themen, "Wer hat ein Thema besucht " sehen.',
+'WHOVISITEDTHISTOPIC_INDEX'                  => 'Wer hat dieses Thema besucht',
+'ACL_U_WHOVISITEDTHISTOPIC'                  => 'Kann unter Themen, "Wer hat ein Thema besucht" sehen',
+'ACL_U_WHOVISITEDTHISTOPIC_COUNT'            => 'Kann den Beitrag Z&auml;hler bei "Wer hat ein Thema besucht" sehen',
+'ACL_U_WHOVISITEDTHISTOPIC_PROFILE'          => 'Kann im Profil sehen, "Wer hat ein Thema besucht"',
+'ACL_U_WHOVISITEDTHISTOPIC_SHOW_AVATAR'      => 'Kann die Avatare unter Themen, "Wer hat ein Thema besucht " sehen.',
 ));

@@ -1,22 +1,20 @@
 <?php
 /**
-*
-* @package phpBB Extension - Who Visited This Topic
-* @copyright (c) 2016 dmzx - http://www.dmzx-web.net
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
+ *
+ * @package phpBB Extension - Who Visited This Topic
+ * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
+ * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -37,6 +35,6 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'WHOVISITEDTHISTOPIC_TITLE'			=> 'Letzte <strong>%d</ strong> Mitglieder, die dieses Thema besucht haben',
-	'WHOVISITEDTHISTOPIC_VISIT_TITLE'	=> 'Zuletzt besuchte <strong>%d</strong> Themen',
+'WHOVISITEDTHISTOPIC_TITLE'           => 'Letzte <strong>%d</ strong> Mitglieder, die dieses Thema besucht haben',
+'WHOVISITEDTHISTOPIC_VISIT_TITLE'     => 'Zuletzt besuchte <strong>%d</strong> Themen',
 ));
