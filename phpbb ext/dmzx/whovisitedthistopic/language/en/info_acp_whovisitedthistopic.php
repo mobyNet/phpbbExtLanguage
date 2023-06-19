@@ -1,22 +1,20 @@
 <?php
 /**
-*
-* @package phpBB Extension - Who Visited This Topic
-* @copyright (c) 2016 dmzx - http://www.dmzx-web.net
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
+ *
+ * @package phpBB Extension - Who Visited This Topic
+ * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
+ * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -37,9 +35,9 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACP_WHOVISITEDTHISTOPIC_TITLE'				=> 'Who Visited This Topic',
-	'ACP_WHOVISITEDTHISTOPIC_SETTINGS'			=> 'Settings',
-	'ACP_WHOVISITEDTHISTOPIC_OPTIONS_SAVED'		=> 'Who Visited This Topic options has been saved.',
-	// Log entries
-	'LOG_WHOVISITEDTHISTOPIC_UPDATE'			=> '<strong>Who Visited This Topic settings saved</strong>',
+'ACP_WHOVISITEDTHISTOPIC_TITLE'            => 'Who Visited This Topic',
+'ACP_WHOVISITEDTHISTOPIC_SETTINGS'         => 'Settings',
+'ACP_WHOVISITEDTHISTOPIC_OPTIONS_SAVED'    => 'Who Visited This Topic options has been saved.',
+// Log entries
+'LOG_WHOVISITEDTHISTOPIC_UPDATE'           => '<strong>Who Visited This Topic settings saved</strong>',
 ));
