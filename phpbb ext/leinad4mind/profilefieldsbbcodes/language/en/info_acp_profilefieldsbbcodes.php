@@ -36,5 +36,5 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, [
-	'PROFILEFIELDSBBCODES_ENABLE_NOTICE'			=> '<div style="margin:20px auto;"><p>There are no specific settings for this extension.</p></div>',
+'PROFILEFIELDSBBCODES_ENABLE_NOTICE'      => '<div style="margin:20px auto;"><p>There are no specific settings for this extension.</p></div>',
 ]);
