@@ -1,24 +1,22 @@
 <?php
 /**
-*
-* Board Rules extension for the phpBB Forum Software package.
-* German (Casual Honorifics) translation by Talk19Zehn (www.ongray-design.de), extension version 2.1.2
-*
-* @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-*/
+ *
+ * Board Rules extension for the phpBB Forum Software package.
+ * German (Casual Honorifics) translation by Talk19Zehn (www.ongray-design.de), extension version 2.1.2
+ *
+ * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -39,12 +37,12 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	// ACP modules
-	'ACP_BOARDRULES'				=> 'Board Regeln',
-	'ACP_BOARDRULES_MANAGE'			=> 'Regeln verwalten',
-	'ACP_BOARDRULES_SETTINGS'		=> 'Regel-Einstellungen',
+// ACP modules
+'ACP_BOARDRULES'                        => 'Board Regeln',
+'ACP_BOARDRULES_MANAGE'                 => 'Regeln verwalten',
+'ACP_BOARDRULES_SETTINGS'               => 'Regel-Einstellungen',
 
-	// ACP Logs
-	'ACP_BOARDRULES_SETTINGS_LOG'	=> '<strong>Einstellungen der Board-Regeln wurden geändert</strong>',
-	'ACP_BOARDRULES_NOTIFY_LOG'		=> '<strong>Regeländerungs-Mitteilung an alle Mitglieder versendet</strong>',
+// ACP Logs
+'ACP_BOARDRULES_SETTINGS_LOG'           => '<strong>Einstellungen der Board-Regeln wurden geändert</strong>',
+'ACP_BOARDRULES_NOTIFY_LOG'             => '<strong>Regeländerungs-Mitteilung an alle Mitglieder versendet</strong>',
 ));

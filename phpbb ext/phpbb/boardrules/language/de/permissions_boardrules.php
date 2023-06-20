@@ -39,5 +39,5 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACL_A_BOARDRULES'		=> 'Kann die Board-Regeln verwalten',
+'ACL_A_BOARDRULES'        => 'Kann die Board-Regeln verwalten',
 ));
