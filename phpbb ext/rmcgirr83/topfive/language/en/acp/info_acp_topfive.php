@@ -20,7 +20,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, [
-	// ACP
-	'TF_ACP'		=> 'Top Five Extension',
-	'TF_CONFIG'		=> 'Settings',
+// ACP
+'TF_ACP'        => 'Top Five Extension',
+'TF_CONFIG'     => 'Settings',
 ]);
