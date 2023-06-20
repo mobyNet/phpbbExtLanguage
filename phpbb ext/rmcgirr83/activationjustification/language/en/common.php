@@ -1,20 +1,18 @@
 <?php
 /**
-*
-* @package - Activation Justification language
-* @copyright (c) 2015 RMcGirr83
-* @author RMcGirr83 (Rich McGirr)
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * @package - Activation Justification language
+ * @copyright (c) 2015 RMcGirr83
+ * @author RMcGirr83 (Rich McGirr)
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ *
+ */
 
-if (!defined('IN_PHPBB'))
-{
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = [];
 }
 
@@ -33,13 +31,14 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, [
-	'ACTIVATION_JUSTIFICATION'	=> '<strong>Activation Justification</strong>',
-	'JUSTIFICATION_EXPLAIN'		=> 'Your activation is contingent upon your reason for wanting to join.',
-	'JUSTIFICATION'				=> 'Justification',
-	'NO_JUSTIFICATION'			=> '<em>None</em>',
-	'TOO_SHORT_JUSTIFICATION'	=> 'The justification reason you entered is too short.',
-	'JUSTIFY_YOU_HAVE'			=> 'You have',
-	'JUSTIFY_CHARS_REMAINING'	=> 'characters remaining.',
-	'SURE_ACTIVATE'				=> 'Are you sure you want to activate the user <strong>%s</strong>?', // %s will be a username.
-	'ACTIVATED_SUCCESS'			=> '<strong>User is activated</strong>',
+'ACTIVATION_JUSTIFICATION'          => '<strong>Activation Justification</strong>',
+'JUSTIFICATION_EXPLAIN'             => 'Your activation is contingent upon your reason for wanting to join.',
+'JUSTIFICATION'                     => 'Justification',
+'NO_JUSTIFICATION'                  => '<em>None</em>',
+'TOO_SHORT_JUSTIFICATION'           => 'The justification reason you entered is too short.',
+'JUSTIFY_YOU_HAVE'                  => 'You have',
+'JUSTIFY_CHARS_REMAINING'           => 'characters remaining.',
+'SURE_ACTIVATE'                     => 'Are you sure you want to activate the user <strong>%s</strong>?',
+// %s will be a username.
+'ACTIVATED_SUCCESS'                 => '<strong>User is activated</strong>',
 ]);
