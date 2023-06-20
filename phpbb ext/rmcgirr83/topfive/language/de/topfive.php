@@ -1,22 +1,20 @@
 <?php
 /**
-*
-* @package phpBB Extension - Top Five
-* @copyright (c) 2014 Rich McGirr
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
+ *
+ * @package phpBB Extension - Top Five
+ * @copyright (c) 2014 Rich McGirr
+ * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -33,9 +31,9 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'NEWEST_TOPICS'		=> 'Neueste Beitr&auml;ge',
-	'NO_TOPIC_EXIST'	=> 'Es sind keine Beitr&auml;ge zum Anzeigen vorhanden',
-	'TOP_FIVE_ACTIVE'	=> 'Top aktive Benutzer',
-	'TOP_FIVE_NEWEST'	=> 'Neueste Benutzer',
-	'BY'                => 'von:',
+'NEWEST_TOPICS'       => 'Neueste Beitr&auml;ge',
+'NO_TOPIC_EXIST'      => 'Es sind keine Beitr&auml;ge zum Anzeigen vorhanden',
+'TOP_FIVE_ACTIVE'     => 'Top aktive Benutzer',
+'TOP_FIVE_NEWEST'     => 'Neueste Benutzer',
+'BY'                  => 'von:',
 ));
