@@ -1,20 +1,18 @@
 <?php
 /**
-*
-* @package - Activation Justification language
-* @copyright (c) 2015 RMcGirr83
-* @author RMcGirr83 (Rich McGirr)
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * @package - Activation Justification language
+ * @copyright (c) 2015 RMcGirr83
+ * @author RMcGirr83 (Rich McGirr)
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ *
+ */
 
-if (!defined('IN_PHPBB'))
-{
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = [];
 }
 
@@ -33,13 +31,14 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, [
-	'ACTIVATION_JUSTIFICATION'	=> '<strong>Aktivierungsbegründung</strong>',
-	'JUSTIFICATION_EXPLAIN'		=> 'Ihre Aktivierung hängt von Ihrem Grund ab, für die Teilnahme dem Forum beizutreten.',
-	'JUSTIFICATION'				=> 'Begründung - Warum m&ouml;chte Sie beitreten',
-	'NO_JUSTIFICATION'			=> '<em>Keine</em>',
-	'TOO_SHORT_JUSTIFICATION'	=> 'Die eingegebene Begründung ist zu kurz.',
-	'JUSTIFY_YOU_HAVE'			=> 'Sie haben',
-	'JUSTIFY_CHARS_REMAINING'	=> 'verbleibende Zeichen.',
-	'SURE_ACTIVATE'				=> 'Möchten Sie den Benutzer <strong>%s</strong> wirklich aktivieren?', // %s wird sein Benutzername.
-	'ACTIVATED_SUCCESS'			=> '<strong>Benutzer ist aktiviert</strong>',
+'ACTIVATION_JUSTIFICATION'      => '<strong>Aktivierungsbegründung</strong>',
+'JUSTIFICATION_EXPLAIN'         => 'Ihre Aktivierung hängt von Ihrem Grund ab, für die Teilnahme dem Forum beizutreten.',
+'JUSTIFICATION'                 => 'Begründung - Warum m&ouml;chte Sie beitreten',
+'NO_JUSTIFICATION'              => '<em>Keine</em>',
+'TOO_SHORT_JUSTIFICATION'       => 'Die eingegebene Begründung ist zu kurz.',
+'JUSTIFY_YOU_HAVE'              => 'Sie haben',
+'JUSTIFY_CHARS_REMAINING'       => 'verbleibende Zeichen.',
+'SURE_ACTIVATE'                 => 'Möchten Sie den Benutzer <strong>%s</strong> wirklich aktivieren?',
+// %s wird sein Benutzername.
+'ACTIVATED_SUCCESS'             => '<strong>Benutzer ist aktiviert</strong>',
 ]);
