@@ -1,23 +1,21 @@
 <?php
 /**
-*
-* Board Rules extension for the phpBB Forum Software package.
-*
-* @copyright (c) 2013 phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-*/
+ *
+ * Board Rules extension for the phpBB Forum Software package.
+ *
+ * @copyright (c) 2013 phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -38,9 +36,9 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'BOARDRULES'				=> 'Rules',
-	'BOARDRULES_TITLE'			=> 'View the Rules of this Board',
-	'BOARDRULES_AGREEMENT'		=> 'You agree to abide by the rules of these forums set forth in the following “Rules” section',
-	'BOARDRULES_VIEWONLINE'		=> 'Viewing Board Rules',
-	'BOARDRULES_NOTIFICATION'	=> 'The Board Rules have been updated. Click here to review them.',
+'BOARDRULES'                     => 'Rules',
+'BOARDRULES_TITLE'               => 'View the Rules of this Board',
+'BOARDRULES_AGREEMENT'           => 'You agree to abide by the rules of these forums set forth in the following “Rules” section',
+'BOARDRULES_VIEWONLINE'          => 'Viewing Board Rules',
+'BOARDRULES_NOTIFICATION'        => 'The Board Rules have been updated. Click here to review them.',
 ));

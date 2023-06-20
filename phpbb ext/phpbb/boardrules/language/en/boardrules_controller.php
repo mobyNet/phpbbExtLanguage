@@ -1,23 +1,21 @@
 <?php
 /**
-*
-* Board Rules extension for the phpBB Forum Software package.
-*
-* @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-*/
+ *
+ * Board Rules extension for the phpBB Forum Software package.
+ *
+ * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -38,9 +36,9 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'BOARDRULES_HEADER'			=> 'Board rules',
-	'BOARDRULES_EXPLAIN'		=> 'These rules are disclosed to clarify the various responsibilities of all community members here on %s. They shall be adhered to by everyone to ensure that our board runs smoothly and provides a fun and productive experience for all of our community members and visitors.',
-	'BOARDRULES_CATEGORIES'		=> 'Rules sections',
-	'BOARDRULES_CATEGORY_ANCHOR'=> 'section-%s',
-	'BOARDRULES_RULE_ANCHOR'	=> 'rule-%s',
+'BOARDRULES_HEADER'               => 'Board rules',
+'BOARDRULES_EXPLAIN'              => 'These rules are disclosed to clarify the various responsibilities of all community members here on %s. They shall be adhered to by everyone to ensure that our board runs smoothly and provides a fun and productive experience for all of our community members and visitors.',
+'BOARDRULES_CATEGORIES'           => 'Rules sections',
+'BOARDRULES_CATEGORY_ANCHOR'      => 'section-%s',
+'BOARDRULES_RULE_ANCHOR'          => 'rule-%s',
 ));

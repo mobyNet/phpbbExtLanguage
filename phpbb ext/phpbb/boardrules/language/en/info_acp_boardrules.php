@@ -1,23 +1,21 @@
 <?php
 /**
-*
-* Board Rules extension for the phpBB Forum Software package.
-*
-* @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-*/
+ *
+ * Board Rules extension for the phpBB Forum Software package.
+ *
+ * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -38,12 +36,12 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	// ACP modules
-	'ACP_BOARDRULES'				=> 'Board rules',
-	'ACP_BOARDRULES_MANAGE'			=> 'Manage rules',
-	'ACP_BOARDRULES_SETTINGS'		=> 'Rules settings',
+// ACP modules
+'ACP_BOARDRULES'                       => 'Board rules',
+'ACP_BOARDRULES_MANAGE'                => 'Manage rules',
+'ACP_BOARDRULES_SETTINGS'              => 'Rules settings',
 
-	// ACP Logs
-	'ACP_BOARDRULES_SETTINGS_LOG'	=> '<strong>Board rules settings changed</strong>',
-	'ACP_BOARDRULES_NOTIFY_LOG'		=> '<strong>Board rules notification sent to all users</strong>',
+// ACP Logs
+'ACP_BOARDRULES_SETTINGS_LOG'          => '<strong>Board rules settings changed</strong>',
+'ACP_BOARDRULES_NOTIFY_LOG'            => '<strong>Board rules notification sent to all users</strong>',
 ));
