@@ -1,25 +1,23 @@
 <?php
 /**
-*
-* info_acp_football_all_bets [Deutsch — Du]
-*
-* @package language
-* @version $Id: info_acp_football_all_bets.php 6 2011-01-09 08:02:37Z football $ 
-* @copyright (c) 2010 football (http://football.bplaced.net)
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * info_acp_football_all_bets [Deutsch — Du]
+ *
+ * @package language
+ * @version $Id: info_acp_football_all_bets.php 6 2011-01-09 08:02:37Z football $ 
+ * @copyright (c) 2010 football (http://football.bplaced.net)
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -36,12 +34,11 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_FOOTBALL_ALL_BETS'					=> 'Alle Tipps',
-	'ACP_FOOTBALL_ALL_BETS_MANAGEMENT'		=> 'Tipprunde-Alle Tipps ansehen',
-	'ACP_FOOTBALL_ALL_BETS_VIEW'			=> 'Alle Tipps ansehen',
-	'ACP_FOOTBALL_ALL_BETS_VIEW_EXPLAIN'	=> 'Hier kannst du alle Tipps der Tipper einsehen.',
-	
-	'SELECT_MATCHDAY'						=> 'Spieltag wählen',	
-));
+'ACP_FOOTBALL_ALL_BETS'                       => 'Alle Tipps',
+'ACP_FOOTBALL_ALL_BETS_MANAGEMENT'            => 'Tipprunde-Alle Tipps ansehen',
+'ACP_FOOTBALL_ALL_BETS_VIEW'                  => 'Alle Tipps ansehen',
+'ACP_FOOTBALL_ALL_BETS_VIEW_EXPLAIN'          => 'Hier kannst du alle Tipps der Tipper einsehen.',
 
+'SELECT_MATCHDAY'                             => 'Spieltag wählen',
+));
 ?>
