@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang)) {
 //
 
 $lang = array_merge($lang, array(
-	'FOOTBALL_HELP_FAQ' => array(
+'FOOTBALL_HELP_FAQ' => array(
 array(
 0                               => '--',
 1                               => 'Erste Schritte'
@@ -156,7 +156,7 @@ array(
 array(
 0                               => 'Wie speichere ich endgültige Spielergebnisse?',
 1                               => 'Endgültige Spielergebnisse können nur im Adminbereich eingegeben bzw. bestätigt werden. Dabei werden nur die Ergebnisse der ausgewählten 
-Spiele abgespeichert.'
+                                   Spiele abgespeichert.'
 ),
 array(
 0                               => 'Warum kann ich keine Spielergebnisse eingeben?',
@@ -194,7 +194,7 @@ array(
 array(
 0                               => 'Wie lösche ich Spielergebnisse?',
 1                               => 'Einfach ein Ergebnisfeld löschen oder die Löschen Option wählen und schon werden alle Ergebnisfelder gelöscht. Der Status des Spiels wird 
-dabei auf 1 zurückgesetzt.'
+                                   dabei auf 1 zurückgesetzt.'
 ),
 array(
 0                               => 'Wie nehme ich einzelne Spiele aus der Wertung?',
@@ -423,41 +423,41 @@ array(
 array(
 0                               => 'Wie werden Einsätze, Ein- und Auszahlungen und Gewinne verbucht?',
 1                               => 'Einsätze belasten das Tipperkonto und den Gesamtsaldo von UP und können durch Einzahlungen wieder ausgeglichen werden. In der Saison 
-gutgeschriebene Gewinne können vom Tipperkonto ausgezahlt werden, wobei die Auszahlung ebenfalls den Gesamtsaldo in UP belastet. Gewinne werden automatisch 
-über die Gewinnverteilung der Tipprunde beim Speichern der Spielergebnisse mit dem Tipperkonto und UP (bei gesetztem Schalter) verbucht. Beim erneuten 
-Abspeichern von Ergebnissen werden die alten Buchungen storniert und neu gebucht. Sollten an den nachfolgenden Spieltagen bereits Ergebnisse vorhanden sein, 
-werden die dazugehörigen Ranglisten und Buchungen korrigiert. Ein- und Auszahlungen sind nur für reale Zahlungen gedacht.'
-		),
-		array(
-		0                               => 'Einsatz buchen',
-		1                               => 'Wenn UP installiert und beim Buchen aktiviert ist, wird der Einsatz vom UP Saldo abgezogen. Die Einsätze können für eine komplette Liga abgebucht 
-werden oder für einzelne Tipper. Bei der Buchung für die gesamte Liga werden bereits vorher schon gebuchte Einsätze berücksichtigt, so dass insgesamt 
-maximal der in der Liga hinterlegte Einsatz abgebucht wird. Bei Einzelabbuchung je ausgewählten Tipper werden die ausstehenden Einsätze als Vorgabe 
-in die jeweiligen Eingabefelder eingetragen. Werden diese Werte verändert erfolgt keine Überprüfung auf Unter- bzw. Überzahlung.'
+                                   gutgeschriebene Gewinne können vom Tipperkonto ausgezahlt werden, wobei die Auszahlung ebenfalls den Gesamtsaldo in UP belastet. Gewinne werden automatisch 
+                                   über die Gewinnverteilung der Tipprunde beim Speichern der Spielergebnisse mit dem Tipperkonto und UP (bei gesetztem Schalter) verbucht. Beim erneuten 
+                                   Abspeichern von Ergebnissen werden die alten Buchungen storniert und neu gebucht. Sollten an den nachfolgenden Spieltagen bereits Ergebnisse vorhanden sein, 
+                                   werden die dazugehörigen Ranglisten und Buchungen korrigiert. Ein- und Auszahlungen sind nur für reale Zahlungen gedacht.'
+),
+array(
+0                               => 'Einsatz buchen',
+1                               => 'Wenn UP installiert und beim Buchen aktiviert ist, wird der Einsatz vom UP Saldo abgezogen. Die Einsätze können für eine komplette Liga abgebucht 
+                                   werden oder für einzelne Tipper. Bei der Buchung für die gesamte Liga werden bereits vorher schon gebuchte Einsätze berücksichtigt, so dass insgesamt 
+                                   maximal der in der Liga hinterlegte Einsatz abgebucht wird. Bei Einzelabbuchung je ausgewählten Tipper werden die ausstehenden Einsätze als Vorgabe 
+                                   in die jeweiligen Eingabefelder eingetragen. Werden diese Werte verändert erfolgt keine Überprüfung auf Unter- bzw. Überzahlung.'
 ),
 array(
 0                               => 'Einzahlung buchen',
 1                               => 'Wenn UP installiert und beim Buchen aktiviert ist, wird die Einzahlung dem Saldo gutgeschrieben. Somit können durch Einsatzbuchungen entstandene 
-negative Kontostände wieder ausgeglichen werden. Einzahlungen können für eine komplette Liga gebucht werden oder für einzelne Tipper. Bei der Buchung für die 
-gesamte Liga werden bereits vorher gebuchte Einzahlungen berücksichtigt, so dass insgesamt maximal der in der Liga hinterlegte Einsatz gebucht wird. 
-Bei Einzelbuchung je ausgewählten Tipper werden die ausstehenden Einzahlungen als Vorgabe in die jeweiligen Eingabefelder eingetragen. Werden diese Werte 
-verändert erfolgt keine Überprüfung auf Unter- bzw. Überzahlung.'
+                                   negative Kontostände wieder ausgeglichen werden. Einzahlungen können für eine komplette Liga gebucht werden oder für einzelne Tipper. Bei der Buchung für die 
+                                   gesamte Liga werden bereits vorher gebuchte Einzahlungen berücksichtigt, so dass insgesamt maximal der in der Liga hinterlegte Einsatz gebucht wird. 
+                                   Bei Einzelbuchung je ausgewählten Tipper werden die ausstehenden Einzahlungen als Vorgabe in die jeweiligen Eingabefelder eingetragen. Werden diese Werte 
+                                   verändert erfolgt keine Überprüfung auf Unter- bzw. Überzahlung.'
 ),
 array(
 0                               => 'Auszahlung buchen',
 1                               => 'Wenn UP installiert und beim Buchen aktiviert ist, belastet die Auszahlung den Saldo. Somit können in der Saison erzielte Gewinne ausgezahlt werden
-und der Saldo ausgeglichen werden. Auszahlungen können für eine komplette Liga gebucht werden oder für einzelne Tipper. Bei der Buchung für die 
-gesamte Liga werden bereits vorher gebuchte Auszahlungen berücksichtigt, so dass insgesamt maximal der in der Liga erzielte Gewinn ausgebucht wird. 
-Bei Einzelbuchung je ausgewählten Tipper werden die ausstehenden Auszahlungen als Vorgabe in die jeweiligen Eingabefelder eingetragen. Werden diese Werte 
-verändert erfolgt keine Überprüfung auf Über- bzw. Unterzahlung.'
+                                   und der Saldo ausgeglichen werden. Auszahlungen können für eine komplette Liga gebucht werden oder für einzelne Tipper. Bei der Buchung für die 
+                                   gesamte Liga werden bereits vorher gebuchte Auszahlungen berücksichtigt, so dass insgesamt maximal der in der Liga erzielte Gewinn ausgebucht wird. 
+                                   Bei Einzelbuchung je ausgewählten Tipper werden die ausstehenden Auszahlungen als Vorgabe in die jeweiligen Eingabefelder eingetragen. Werden diese Werte 
+                                   verändert erfolgt keine Überprüfung auf Über- bzw. Unterzahlung.'
 ),
 array(
 0                               => 'Vorgehensweise nach dem Update auf Version 0.9.2 ',
 1                               => 'Beim Update des phpBB3 Football MODs auf Version 0.92 werden alle vorhanden Ranglisten (auch aus den Vorjahren) neu berechnet und die Gewinne 
-dabei automatisch im Tipperkonto verbucht. Eine Verrechnung mit dem UP-Saldo wird dabei nicht vorgenommen. Ist dies erwünscht, so muss der Schalter 
-"Ultimate Points einbinden" entsprechend gesetzt werden und die Spielergebnisse des ersten Spieltags je Liga erneut abgespeichert werden. Einsätze, 
-Ein- und Auszahlungen müssen manuell im Adminbereich je Saison nachverrechnet werden. Vorher sollte man entscheiden, ob diese Buchungen auch im UP-Saldo 
-berücksichtigt werden sollen und dementsprechend den Schalter für UP setzen.'
+                                   dabei automatisch im Tipperkonto verbucht. Eine Verrechnung mit dem UP-Saldo wird dabei nicht vorgenommen. Ist dies erwünscht, so muss der Schalter 
+                                   "Ultimate Points einbinden" entsprechend gesetzt werden und die Spielergebnisse des ersten Spieltags je Liga erneut abgespeichert werden. Einsätze, 
+                                   Ein- und Auszahlungen müssen manuell im Adminbereich je Saison nachverrechnet werden. Vorher sollte man entscheiden, ob diese Buchungen auch im UP-Saldo 
+                                   berücksichtigt werden sollen und dementsprechend den Schalter für UP setzen.'
 ),
 array(
 0                               => '--',
@@ -466,65 +466,65 @@ array(
 array(
 0                               => 'Vorgehensweise beim Spielplan-Update',
 1                               => 'Ein Update des Spielplans kann man nur mit Daten einer anderen Tipprunde-Seite durchführen. Eine Übersicht der zur Verfügung gestellten Saisons 
-und Ligen einer Seite kann über /football/xml/football_xml_season.php ausgehend vom phpbb-Rootverzeichnis abgerufen werden. Wird diese komplette Adresse
-im Browser direkt eingegeben, werden die XML-Daten der Übersicht angezeigt und mit Klick auf einen Liganamen werden die aktuellen Daten der Liga aus 
-der Datenbank angezeigt. Klickt man in dieser Ansicht auf das Diskettensymbol, so kann man die Daten der Liga als XML-File downloaden.<br />
-Beim Starten des Updates im Adminbereich unter Spielplan-Update wird die unter Einstellungen abgespeicherte Saisonübersicht als Updatequelle eingetragen.
-Ist in den Extension-Einstellungen keine Updatequelle hinterlegt, wird die Football Extension Demoseite als Quelle eingetragen. Nach dem Laden der Saisonübersicht
-werden die verfügbaren Ligen zur Auswahl angeboten. Wird der Zugriff auf eine andere URL vom eigenen Hoster nicht unterstützt bzw. ist dieser nicht frei-
-geschaltet, muss man die gewünschten Ligen als XML-File downloaden und unter root/store ablegen. In diesem Fall muss localhost als Updatequelle eingetragen
-werden und am Besten auch in den Einstellungen für zukünftige Aufrufe abgespeichert werden.<br />
-Der Zugriff auf die Saisonübersicht und die Ligadaten kann über einen Code geschützt werden. Nutzer des Updates müssen dann den Code xxxx beim Aufruf der
-Saisonübersicht mit ?code=xxxx anhängen; also /football/xml/football_xml_season.php?code=xxxx aufrufen. Beim anschließenden Aufruf der Ligadaten wird dann 
-der Code weitergereicht. <br />
-Als Zielliga kann man eine bestehende Liga oder eine neue Liga durch Eingabe der neuen Liga-ID wählen. Um eine neue Liga einzurichten, muss vorher 
-zumindest die Saison existieren bzw. im Adminbereich angelegt werden. In diesem Fall werden alle Daten der Update-Datei nach ersetzen der Saison und Liga-ID 
-angezeigt und nach Bestätigung in die Datenbank übernommen.<br />
-Wird eine bestehende Liga gewählt, werden zunächst Saison und Liga-ID im Update ersetzt und die Teams mit der Datenbank verglichen. Bei abweichenden Team-IDs
-oder unterschiedlicher Teamanzahl, ist im nächsten Schritt ein Team-Mapping durchzuführen. Anschließend werden alle Abweichungen zwischen Update und Datenbank
-angezeigt und man kann satz- und spaltenweise wählen welche Daten übernommen werden sollen. Unterschiedlich Vorbelegungen bei der Spaltenauswahl ist dabei zu
-beachten und ggf. anzupassen. Nach der Übernahme der abweichenden Daten aus dem Updaten werden Abgabetermine und Status im Spieltag automatisch korrigiert und die
-die Rangliste der Liga ab dem ersten Spieltag neu berechnet.<br />
-Im Admin-Log wird eine Übersicht der durchgeführten Änderungen protokolliert.'
+                                   und Ligen einer Seite kann über /football/xml/football_xml_season.php ausgehend vom phpbb-Rootverzeichnis abgerufen werden. Wird diese komplette Adresse
+                                   im Browser direkt eingegeben, werden die XML-Daten der Übersicht angezeigt und mit Klick auf einen Liganamen werden die aktuellen Daten der Liga aus 
+                                   der Datenbank angezeigt. Klickt man in dieser Ansicht auf das Diskettensymbol, so kann man die Daten der Liga als XML-File downloaden.<br />
+                                   Beim Starten des Updates im Adminbereich unter Spielplan-Update wird die unter Einstellungen abgespeicherte Saisonübersicht als Updatequelle eingetragen.
+                                   Ist in den Extension-Einstellungen keine Updatequelle hinterlegt, wird die Football Extension Demoseite als Quelle eingetragen. Nach dem Laden der Saisonübersicht
+                                   werden die verfügbaren Ligen zur Auswahl angeboten. Wird der Zugriff auf eine andere URL vom eigenen Hoster nicht unterstützt bzw. ist dieser nicht frei-
+                                   geschaltet, muss man die gewünschten Ligen als XML-File downloaden und unter root/store ablegen. In diesem Fall muss localhost als Updatequelle eingetragen
+                                   werden und am Besten auch in den Einstellungen für zukünftige Aufrufe abgespeichert werden.<br />
+                                   Der Zugriff auf die Saisonübersicht und die Ligadaten kann über einen Code geschützt werden. Nutzer des Updates müssen dann den Code xxxx beim Aufruf der
+                                   Saisonübersicht mit ?code=xxxx anhängen; also /football/xml/football_xml_season.php?code=xxxx aufrufen. Beim anschließenden Aufruf der Ligadaten wird dann 
+                                   der Code weitergereicht. <br />
+                                   Als Zielliga kann man eine bestehende Liga oder eine neue Liga durch Eingabe der neuen Liga-ID wählen. Um eine neue Liga einzurichten, muss vorher 
+                                   zumindest die Saison existieren bzw. im Adminbereich angelegt werden. In diesem Fall werden alle Daten der Update-Datei nach ersetzen der Saison und Liga-ID 
+                                   angezeigt und nach Bestätigung in die Datenbank übernommen.<br />
+                                   Wird eine bestehende Liga gewählt, werden zunächst Saison und Liga-ID im Update ersetzt und die Teams mit der Datenbank verglichen. Bei abweichenden Team-IDs
+                                   oder unterschiedlicher Teamanzahl, ist im nächsten Schritt ein Team-Mapping durchzuführen. Anschließend werden alle Abweichungen zwischen Update und Datenbank
+                                   angezeigt und man kann satz- und spaltenweise wählen welche Daten übernommen werden sollen. Unterschiedlich Vorbelegungen bei der Spaltenauswahl ist dabei zu
+                                   beachten und ggf. anzupassen. Nach der Übernahme der abweichenden Daten aus dem Updaten werden Abgabetermine und Status im Spieltag automatisch korrigiert und die
+                                   die Rangliste der Liga ab dem ersten Spieltag neu berechnet.<br />
+                                   Im Admin-Log wird eine Übersicht der durchgeführten Änderungen protokolliert.'
 ),
 array(
 0                               => 'Team Mapping',
 1                               => 'Das Team Mapping ist notwendig, wenn die Team-IDs nicht identisch sind oder die Anzahl der Teams abweichend ist. Neue hinzugekommene Teams,
-wie z.B. in der EL die Gruppendritten der CL, werden in der Datenbank eingefügt. Nach dem Mapping wird überprüft, ob alle bestehenden Teams der Datenbank 
-zugeordnet sind. Die Team-IDs werden anhand des Mappings in den Update-Daten ausgetauscht. Neue Teams werden erst beim eigentlichen Update eingefügt.'
+                                   wie z.B. in der EL die Gruppendritten der CL, werden in der Datenbank eingefügt. Nach dem Mapping wird überprüft, ob alle bestehenden Teams der Datenbank 
+                                   zugeordnet sind. Die Team-IDs werden anhand des Mappings in den Update-Daten ausgetauscht. Neue Teams werden erst beim eigentlichen Update eingefügt.'
 ),
 array(
 0                               => 'Status-Behandlung bei den Spielen',
 1                               => 'Beim Erzeugen der XML-Daten werden die Status 4-6 auf die Status 1-3 geändert, d.h. im Update gibt es keine Spiele die aus der Wertung 
-genommen wurden. Für die Spiele mit Spielstatus < 2 werden die Tor-Felder als auch der Status selbst nicht übernommen. Steht in der Datenbank ein Status 
-größer als 3, so bleibt dieser Status erhalten und das Update-Programm behandelt den Datensatz wie mit dem korrespondierenden Status 1-3. Grundvoraussetzung 
-für die Datenübernahme unter Betrachtung des Status bleibt jedoch die Selektion der entsprechenden Spalten und Datensätzen innerhalb der Spiele.'
+                                   genommen wurden. Für die Spiele mit Spielstatus < 2 werden die Tor-Felder als auch der Status selbst nicht übernommen. Steht in der Datenbank ein Status 
+                                   größer als 3, so bleibt dieser Status erhalten und das Update-Programm behandelt den Datensatz wie mit dem korrespondierenden Status 1-3. Grundvoraussetzung 
+                                   für die Datenübernahme unter Betrachtung des Status bleibt jedoch die Selektion der entsprechenden Spalten und Datensätzen innerhalb der Spiele.'
 ),
 array(
 0                               => 'Negative Status übernehmen',
 1                               => 'Ist diese Option gesetzt, werden die negativen Status, aber nicht die Tore, übernommen. Dadurch ist es möglich die gestaffelten Abgabetermine
-aus dem Update zu übernehmen. Die Abgabetermine sind entweder aus dem Update zu übernehmen (Spaltenoptionen im Spieltag) oder manuell im Adminbereich zu
-erfassen. Bei einer Ziel-Liga mit "Tippabgabe bis zum jeweiligen Spielbeginn" darf die Option "Negative Status übernehmen" nicht gewählt werden.'
+                                   aus dem Update zu übernehmen. Die Abgabetermine sind entweder aus dem Update zu übernehmen (Spaltenoptionen im Spieltag) oder manuell im Adminbereich zu
+                                   erfassen. Bei einer Ziel-Liga mit "Tippabgabe bis zum jeweiligen Spielbeginn" darf die Option "Negative Status übernehmen" nicht gewählt werden.'
 ),
 array(
 0                               => 'Ergebnisse mit gleichem Status aktualisieren',
 1                               => 'Nur wenn diese Option gesetzt ist, werden die Tor-Felder aus dem Update bei gleichem Status in Update und Datenbank übernommen. Dadurch 
-überschreibt das Update bereits erfasst (vorläufige) Ergebnisse in der Datenbank. Dies gilt auch für Spiele die in der Datenbank aus der Wertung genommen
-wurden. Status 3 im Update überschreibt also die endgültigen Ergebnisse mit Status 6 in der Datenbank. Analog überschreibt Status 2 im Update die 
-vorläufigen, aus der Wertung genommen Ergebnisse mit Status 4, dies aber nur wenn die Option "Nur endgültige Ergebnisse übernehmen" nicht gewählt ist.'
+                                   überschreibt das Update bereits erfasst (vorläufige) Ergebnisse in der Datenbank. Dies gilt auch für Spiele die in der Datenbank aus der Wertung genommen
+                                   wurden. Status 3 im Update überschreibt also die endgültigen Ergebnisse mit Status 6 in der Datenbank. Analog überschreibt Status 2 im Update die 
+                                   vorläufigen, aus der Wertung genommen Ergebnisse mit Status 4, dies aber nur wenn die Option "Nur endgültige Ergebnisse übernehmen" nicht gewählt ist.'
 ),
 array(
 0                               => 'Nur endgültige Ergebnisse übernehmen',
 1                               => 'Wenn diese Option gesetzt ist, werden nur die Tor-Felder aus dem Update-Datensatz übernommen, wenn der Status des Spiels im Update gleich
-3 ist. Vorläufige Ergebnisse aus dem Update werden somit nicht berücksichtigt. Sollen diese berücksichtigt werden, so ist diese Option explizit 
-auszuschalten. Sollen die vorläufigen Ergebnisse aus dem Update vorläufige Ergebnisse in der Datenbank überschreiben, ist zusätzlich die Option "Ergebnisse 
-mit gleichem Status aktualisieren" zu wählen.'
+                                   3 ist. Vorläufige Ergebnisse aus dem Update werden somit nicht berücksichtigt. Sollen diese berücksichtigt werden, so ist diese Option explizit 
+                                   auszuschalten. Sollen die vorläufigen Ergebnisse aus dem Update vorläufige Ergebnisse in der Datenbank überschreiben, ist zusätzlich die Option "Ergebnisse 
+                                   mit gleichem Status aktualisieren" zu wählen.'
 ),
 array(
 0                               => 'Zwischenspeicherung im Cache',
 1                               => 'Die Daten der Saisonübersicht und der Ligen werden für 5 Minuten im Cache zwischengespeichert, damit keine doppelten Zugriffe auf die
-Datenquelle erfolgen. Benötigt man innerhalb dieser Zeit trotzdem aktualisierte Daten, so muss man den Cache löschen um einen erneuten Download von der
-Datenquelle zu erzwingen.'
+                                   Datenquelle erfolgen. Benötigt man innerhalb dieser Zeit trotzdem aktualisierte Daten, so muss man den Cache löschen um einen erneuten Download von der
+                                   Datenquelle zu erzwingen.'
 ),)
 ));
 ?>
