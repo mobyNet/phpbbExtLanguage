@@ -1,25 +1,23 @@
 <?php
 /**
-*
-* permissions_football.php [en]
-*
-* @package phpBB Extension - Football Football
-* @copyright (c) 2016 football (http://football.bplaced.net)
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
+ *
+ * permissions_football.php [en]
+ *
+ * @package phpBB Extension - Football Football
+ * @copyright (c) 2016 football (http://football.bplaced.net)
+ * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -37,14 +35,14 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_FOOTBALL'						=> 'FOOTBALL',
-	'ACL_U_USE_FOOTBALL'				=> 'Can use Prediction League',
-	'ACL_A_FOOTBALL_CONFIG'				=> 'Can change Prediction League settings',
-	'ACL_A_FOOTBALL_DELETE'				=> 'Can remove match schedules',
-	'ACL_A_FOOTBALL_EDITBETS'			=> 'Can edit all bets',
-	'ACL_A_FOOTBALL_PLAN'				=> 'Can create and edit match schedules',
-	'ACL_A_FOOTBALL_RESULTS'			=> 'Can edit final match results',
-	'ACL_A_FOOTBALL_POINTS'				=> 'Can edit Football accounts',
-	'ROLE_ADMIN_FOOTBALL'				=> 'Prediction League administrator',
-	'ROLE_DESCRIPTION_ADMIN_FOOTBALL'	=> 'Can edit final match results.',
+'ACP_FOOTBALL'                          => 'FOOTBALL',
+'ACL_U_USE_FOOTBALL'                    => 'Can use Prediction League',
+'ACL_A_FOOTBALL_CONFIG'                 => 'Can change Prediction League settings',
+'ACL_A_FOOTBALL_DELETE'                 => 'Can remove match schedules',
+'ACL_A_FOOTBALL_EDITBETS'               => 'Can edit all bets',
+'ACL_A_FOOTBALL_PLAN'                   => 'Can create and edit match schedules',
+'ACL_A_FOOTBALL_RESULTS'                => 'Can edit final match results',
+'ACL_A_FOOTBALL_POINTS'                 => 'Can edit Football accounts',
+'ROLE_ADMIN_FOOTBALL'                   => 'Prediction League administrator',
+'ROLE_DESCRIPTION_ADMIN_FOOTBALL'       => 'Can edit final match results.',
 ));
