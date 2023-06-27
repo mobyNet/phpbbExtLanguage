@@ -18,7 +18,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-'ACP_BBEMOJI'=> 'Topic Icons - BBemoji Enabled',
+'ACP_BBEMOJI'                           => 'Topic Icons - BBemoji Enabled',
 'ACP_BBEMOJI_TITLE_EXPLAIN'             => 'NOTE: You can enable/disable topic subject BBemoji per forum basis (disabled globally by default), via ACP > FORUMS (edit forum option). <br />Also, topic icons can be enabled/disabled per forum basis as well. ACP > FORUMS (edit forum option). Enjoy!',
 'SS_HELPER_NOTY'                        => 'SiteSplat BBcore does not exist!<br />Download the <a href="http://sitesplat.com" target="_blank">BBcore</a> and copy the BBcore folder into your sitesplat extension folder.',
 'BBEMOJI_NOTICE'                        => '<div class="phpinfo"><p>Type a semicolon in posting page or quick reply form, like this ":" to get the autosuggest to show up.<br />The emoji can be disabled at the user level via <strong>UCP &#187; Board preferences &#187; Edit display options &#187; "Display smilies as images"</strong><br />Note: Emoji are also automatically enabled for <strong>topic icons</strong>(they can be added/edited from ACP, Postings, Topic Icons).<br>Emoji are also available for "post subjects". They are disabled by default but they can be enabled under ACP &#187; FORUMS &#187; (edit forum by clicking on the cog icon) &#187; "Enable BBemoji in subject".<br> Other Premium extensions like <strong>"BBstatus"</strong>, <strong>"BBgreetings"</strong>, <strong>"BBreaction"</strong> etc, will also support BBemoji if you have it installed.</p></div>',
