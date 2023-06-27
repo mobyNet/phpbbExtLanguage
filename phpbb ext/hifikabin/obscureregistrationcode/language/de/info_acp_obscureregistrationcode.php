@@ -15,8 +15,8 @@ if (empty($lang) || !is_array($lang)) {
 }
 
 $lang = array_merge($lang, array(
-'ACP_OBSCUREREGISTRATIONCODE'                 => 'Obscure Registration Code',
-'ACP_OBSCUREREGISTRATIONCODE_CONFIG'          => 'Obscure Registration Code Configuration',
+'ACP_OBSCUREREGISTRATIONCODE'                 => 'Obscure Registrierungscode',
+'ACP_OBSCUREREGISTRATIONCODE_CONFIG'          => 'Obscure Registrierungscode Konfiguation',
 
-'ACP_OBSCUREREGISTRATIONCODE_SAVED'           => 'Obscure Registration Code Configuration Saved',
+'ACP_OBSCUREREGISTRATIONCODE_SAVED'           => 'Obscure Registrierungscode Konfiguation gespeichert',
 ));

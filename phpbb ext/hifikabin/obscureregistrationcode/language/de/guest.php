@@ -15,7 +15,7 @@ if (empty($lang) || !is_array($lang)) {
 }
 
 $lang = array_merge($lang, array(
-'REGISTRATIONCODE'      => 'Show Registration Code',
-'NOSCRIPT'              => 'You must enable Javascript to view the Registration Code',
-'COPYCODE'              => 'Copy',
+'REGISTRATIONCODE'      => 'Registrierungscode anzeigen',
+'NOSCRIPT'              => 'Sie müssen Javascript aktivieren, um den Registrierungscode zu sehen',
+'COPYCODE'              => 'Kopie',
 ));
