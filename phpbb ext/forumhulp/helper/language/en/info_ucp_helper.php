@@ -35,12 +35,12 @@ if (empty($lang) || !is_array($lang)) {
 //
 
 $lang = array_merge($lang,array(
-'UCP_IR'                          => 'Image Resizer',
-'IMAGE_RESIZE'                    => 'Image Resize',
-'IMAGE_RESIZE_EXPLAIN'            => 'Crop your %1$s from the picture and confirm.',
-// Your avatar will be saved with a height of %1$s pixels and a width of %2$s pixels.'
-'IMAGE_RESIZE_ERROR'              => 'No app or file to send!',
-'IMAGERESIZE_NOTICE'              => '<div class="phpinfo"><p class="entry">This module is hidden and has no config options. However remind you to set maximum upload in ACP.</p></div>',
-'ERROR_IMAGERESIZE_DISABLE'       => 'You can not disable Image Resize because of active extensions<br /><div class="phpinfo">» %s</div>',
-'FH_HELPER_NOTICE'                => 'Forumhulp helper application does not exist!<br />Download <a href="https://github.com/ForumHulp/helper" target="_blank">forumhulp/helper</a> and copy the helper folder to your forumhulp extension folder.',
+'UCP_IR'                          => 'Bildverkleinerer',
+'IMAGE_RESIZE'                    => 'Bildverkleinerer',
+'IMAGE_RESIZE_EXPLAIN'            => 'Ausschneiden Sie Ihre %1$s aus dem Bild und bestätigen Sie.',
+// Ihr Avatar wird mit einer Höhe von %1$s Pixel und einer Breite von %2$s Pixel gespeichert.'
+'IMAGE_RESIZE_ERROR'              => 'Keine App oder Datei zum Senden!',
+'IMAGERESIZE_NOTICE'              => '<div class="phpinfo"><p class="entry">Dieses Modul ist versteckt und hat keine Konfigurationsoptionen. Wir erinnern Sie jedoch daran, den maximalen Upload in ACP einzustellen.</p></div>',
+'ERROR_IMAGERESIZE_DISABLE'       => 'Sie können Image Resize wegen aktiver Erweiterungen nicht deaktivieren<br /><div class="phpinfo">" %s</div>',
+'FH_HELPER_NOTICE'                => 'Forumhulp helper funktioniert Nicht!<br />Laden Sie <a href="https://github.com/ForumHulp/helper" target="_blank">forumhulp/helper</a> herunter und kopieren Sie den helper-Ordner in Ihren forumhulp-Erweiterungsordner.',
 ));
