@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
  *
  * common [German]
@@ -44,15 +44,15 @@ $lang = array_merge($lang, array(
 'ACP_SITESPLAT_UPDATE_MANAGER'               => 'Sitesplat Update Manager',
 'VERSIONNUMBERS'                             => 'Installierte Version: %s, laden Sie die neue Version vom Server herunter: <a style="color:#fff;" href="%s" title="Download" target="_blank">%s</a> oder gehen Sie zum <a href="%s">SiteSplat Update Manager</a>.',
 'VERSION_INSTALLED'                          => 'Installierte Version',
-'NEW_BOOTS_VERSION'                          => '🌟 Neue %s Version verfügbar 🌟',
+'NEW_BOOTS_VERSION'                          => '?? Neue %s Version verfügbar ??',
 
 'SS_RAPID_DISABLE'                           => 'Schnell-Deaktivierung',
 'SS_RAPID_DISABLE_TLT'                       => 'Deaktiviert (alle) SiteSplat Erweiterungen auf einmal. Mache vorher ein Backup!!!',
 'DOWNLOAD_MSG'                               => 'Die aktuelle Version <span class="label label-success">%s</span> kann auf Themeforest heruntergeladen werden: <a href="%s" title="Download" target="_blank">%s - phpBB3</a>',
 
 'DOWNLOAD_BTN_ENVATO'                        => '<a class="btn btn-default sitesplat-bbcore-autoupdate" href="%s" title="Von Envato herunterladen" target="_blank">Envato-Element anzeigen</a>',
-'DOWNLOAD_MSG_NO_UPD'                        => 'Alles gut! Sieht aus, als wärst du auf dem neuesten Stand! 👍💯',
-'START_AUTO'                                 => 'Start Auto-update 🚀',
+'DOWNLOAD_MSG_NO_UPD'                        => 'Alles gut! Sieht aus, als wärst du auf dem neuesten Stand! ????',
+'START_AUTO'                                 => 'Start Auto-update ??',
 
 'CHANGE_LOG_MSG'                             => 'Den Changelog findest du hier: <a href="%s" target="_blank">%s (phpBB3.1) Changelog</a>',
 'SUPPORT_FORUM_MSG'                          => 'Das Support-Forum ist auf der aktuellen Seite der Community: <a href="%s" title="Download" target="_blank">http://www.sitesplat.com</a>',
@@ -85,10 +85,10 @@ $lang = array_merge($lang, array(
 'NO_DIRECT_DOWNLOAD'                         => 'Ihr Style kann nicht automatisch aktualisiert werden, da der Autor des Stils nicht die erforderlichen Dateien bereitgestellt hat.',
 'PROBLEM_DOWNLOADING_UPDATE'                 => 'Die Update-Dateien können derzeit nicht heruntergeladen werden. Bitte versuchen Sie es später noch einmal.',
 'DOWNLOADED_FILE_CORRUPTED'                  => 'Die Update-Datei ist beschädigt.',
-'MERGE_CONFLICTS'                            => 'OH nein! 😱 ¯\_(ツ)_/¯ Das System konnte Ihr Premium-Theme nicht automatisch aktualisieren. Die möglichen Gründe könnten darin liegen, dass Ihre Designdateien beschädigt sind oder benutzerdefinierte Änderungen enthalten, die durch die automatische Aktualisierung nicht automatisch behoben werden können. Um Ihnen in dieser Situation zu helfen, sehen Sie sich die generierten Konfliktdateien und/oder die darin enthaltenen Konflikte an, gespeichert unter:<br /><br /><strong>%s</strong>.',
+'MERGE_CONFLICTS'                            => 'OH nein! ?? ¯\_(?)_/¯ Das System konnte Ihr Premium-Theme nicht automatisch aktualisieren. Die möglichen Gründe könnten darin liegen, dass Ihre Designdateien beschädigt sind oder benutzerdefinierte Änderungen enthalten, die durch die automatische Aktualisierung nicht automatisch behoben werden können. Um Ihnen in dieser Situation zu helfen, sehen Sie sich die generierten Konfliktdateien und/oder die darin enthaltenen Konflikte an, gespeichert unter:<br /><br /><strong>%s</strong>.',
 'REQUIRED_FILE_MISSING'                      => 'In Ihrem Style fehlt eine erforderliche Datei: %s',
 'NEW_FILE_ALREADY_EXISTS'                    => 'Eine hinzuzufügende Datei existiert bereits: %s',
-'UPDATE_SUCCESS'                             => 'Yeehaw! Ihr Premium-Theme wurde erfolgreich aktualisiert 💯. Viel Spaß!<br />Vergessen Sie außerdem nicht, nach Aktualisierungen Ihrer SiteSplat Premium-Erweiterungen zu suchen.<br /><br /> Oh, wenn Sie jetzt wirklich in einer fantastischen Stimmung sind, da ich Ihnen das Leben leichter gemacht habe und schneller 😜 wie wäre es mit einem digitalen High 5? Wie zum Beispiel eine 5-Sterne-⭐⭐⭐⭐⭐-Bewertung auf Themeforest für dieses Premium-Theme mit super PRO-Funktionen? <br /><br />Bitte bitte? 😚 Hier ist der Link für dich: <a href="https://themeforest.net/downloads?ref=ThemeSplat" target="_blank">https://themeforest.net/downloads</a>',
+'UPDATE_SUCCESS'                             => 'Yeehaw! Ihr Premium-Theme wurde erfolgreich aktualisiert ??. Viel Spaß!<br />Vergessen Sie außerdem nicht, nach Aktualisierungen Ihrer SiteSplat Premium-Erweiterungen zu suchen.<br /><br /> Oh, wenn Sie jetzt wirklich in einer fantastischen Stimmung sind, da ich Ihnen das Leben leichter gemacht habe und schneller ?? wie wäre es mit einem digitalen High 5? Wie zum Beispiel eine 5-Sterne-?????-Bewertung auf Themeforest für dieses Premium-Theme mit super PRO-Funktionen? <br /><br />Bitte bitte? ?? Hier ist der Link für dich: <a href="https://themeforest.net/downloads?ref=ThemeSplat" target="_blank">https://themeforest.net/downloads</a>',
 'CURRENT_FILE'                               => 'Aktuelle Datei',
 'DIFF_SEP_EXPLAIN'                           => 'Konflikt',
 'NEW_FILE'                                   => 'Neue Datei',
