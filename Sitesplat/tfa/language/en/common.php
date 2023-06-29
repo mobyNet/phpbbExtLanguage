@@ -35,9 +35,7 @@ if (empty($lang) || !is_array($lang)) {
 // ’ » “ ” …
 //
 
-$lang = array_merge(
-$lang,
-array(
+$lang = array_merge($lang,array(
 'TFA'                                     => 'Two Factor Authentication',
 'TFA_REQUIRED_KEY_MISSING'                => 'The administrator of this forum requires that you have added a Two Factor Authentication key for access to (limited) parts of this forum, however you currently have no (Compatible) keys registerted to your account. You can add a new security key <a href="%s">here</a>.
                                              <br />For security reasons, the board has been disabled until you add a security key to your account. Your might be required to fill in your password while adding a security key!',
