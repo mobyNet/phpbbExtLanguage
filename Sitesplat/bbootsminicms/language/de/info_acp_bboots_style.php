@@ -108,7 +108,6 @@ $lang = array_merge($lang, array(
 'SELECT_IMAGE'                                  => 'Bild ausw&auml;hlen',
 'IMG_UPLOAD_EXPLAIN'                            => 'Zul&auml;ssige Bilder sind png, jpg, jpeg und gif.',
 'IMG_UPLOAD_ERROR'                              => 'Nur die Bilder png, jpg, jpeg und gif sind erlaubt.',
-
 'IMAGE_LOGO'                                    => 'Site logo',
 'IMAGE_BG'                                      => 'Hintergrund Bild des Forums',
 'CHECK_TO_DELETE'                               => 'Zum L&ouml;schen markieren und dann die L&ouml;schtaste dr&uuml;cken',
@@ -146,6 +145,7 @@ $lang = array_merge($lang, array(
 'NO_SOCIALS'                                    => 'Es ist kein soziales Netzwerk zu verwalten',
 'SOCIAL_UPDATED'                                => 'Soziales Netzwerk wurde erfolgreich aktualisiert',
 'SOCIAL_ADDED'                                  => 'Neues soziales Netzwerk wurde erfolgreich hinzugef&uuml;gt',
+
 'ENABLE_CUSTOM_CSS'                             => 'Benutzerdefiniertes CSS aktivieren',
 'ENABLE_CUSTOM_CSS_EXPLAIN'                     => 'W&auml;hlen Sie Ja, um die Verwendung der Datei custom.css zu aktivieren.',
 'SELECTED_FILE'                                 => 'Ausgew&auml;hlte Datei',
