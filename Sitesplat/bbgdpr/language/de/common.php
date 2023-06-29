@@ -20,6 +20,7 @@ $lang = array_merge($lang, array(
 // used both in ACP and/or UCP and/or all pages
 'BBGDPR_TITLE'                         => 'GDPR',
 'BBGDPR_PRIVACY_POLICY'                => 'GDPR - Allgemeine Datenschutzverordnung',
+'BBGDPR_ACCEPTED'                      => 'Akzeptiert am',
 'PRIVACY_ACCEPT_DATE'                  => 'Datum der Annahme der Datenschutzrichtlinie',
 'COOKIE_ACCEPT_DATE'                   => 'Datum der Annahme der Cookie-Richtlinie',
 'NOT_ACCEPTED'                         => 'Richtlinie wurde nicht akzeptiert',
@@ -38,21 +39,20 @@ $lang = array_merge($lang, array(
 'NOTIFICATION_TYPE_BBGDPR'             => 'Ein Benutzer l&ouml;scht sein Konto unter GDPR',
 
 // cookies
-'COOKIE_CONSENT'                       => 'Wenn Sie Ihren Besuch auf dieser Website fortsetzen, stimmen Sie der Verwendung von Cookies zu.',
-'REJECT'                               => 'Ablehnen',
-'ACCEPT'                               => 'Ich akzeptiere die Verwendung von Cookies',
-'ACCEPT_GDPR'                          => 'Ich akzeptiere die GDPR-Datenschutzverordnung',
-'BBGDPR_ACCEPTED'                      => 'angenommen am',
+'COOKIE_CONSENT'                       => 'Indem Sie Ihren Besuch auf dieser Website fortsetzen, akzeptieren Sie die Verwendung von Cookies.',
+'REJECT_BBGDPR_COOKIE'                 => 'Ablehnen',
+'ACCEPT_BBGDPR_COOKIE'                 => 'Ich akzeptiere die Verwendung von Cookies',
+'ACCEPT_GDPR'                          => 'Ich akzeptiere die DSGVO-Richtlinie',
 'REJECT_GDPR'                          => 'Ablehnen (Sie werden abgemeldet)',
 // mcp
-'GDPR_REVIEW'                          => '&Uuml;berpr&uuml;fung der GDPR-Datenschutzverordnung',
-'GDPR_NOT_REVIEWED'                    => 'Um auf MCP zugreifen zu k&ouml;nnen, m&uuml;ssen Sie best&auml;tigen, dass Sie die GDPR-Datenschutzverordnung &uuml;berpr&uuml;ft haben. &Uuml;berpr&uuml;fen Sie die GDPR-Datenschutzverordnung: <a href="https://gdpr-info.eu/">https://gdpr-info.eu/</a>',
-'GDPR_REVIEW_CONFIRM'                  => 'Ich best&auml;tige, die GDPR-Datenschutzverordnung &uuml;berpr&uuml;ft zu haben',
-'MCP_ACCEPT_FIRST'                     => 'Um auf MCP zugreifen zu k&ouml;nnen, m&uuml;ssen Sie best&auml;tigen, dass Sie die GDPR-Datenschutzverordnung &uuml;berpr&uuml;ft haben. Bitte <a href="%s"> best&auml;tigen Sie dies, bevor Sie eine Moderatoraktion ausf&uuml;hren </a>..',
+'GDPR_REVIEW'                          => 'Überprüfung der DSGVO-Richtlinien',
+'GDPR_NOT_REVIEWED'                    => 'Um auf MCP zugreifen zu können, müssen Sie bestätigen, dass Sie die DSGVO-Richtlinien gelesen haben. Lesen Sie die DSGVO-Richtlinien: <a href="https://gdpr-info.eu/">https://gdpr-info.eu/</a>',
+'GDPR_REVIEW_CONFIRM'                  => 'Ich bestätige, die DSGVO-Richtlinien gelesen zu haben',
+'MCP_ACCEPT_FIRST'                     => 'Um auf MCP zugreifen zu können, müssen Sie bestätigen, dass Sie die DSGVO-Richtlinien gelesen haben. Bitte <a href="%s">bestätigen Sie dies, bevor Sie eine Moderatoraktion durchführen</a>.',
 
 // privacy
-'LAST_UPDATED'                         => 'Letzte Aktualisierung: %s',
-'REVIEW_PERSONAL_DATA'                 => '&Uuml;berpr&uuml;fen Sie Ihre pers&ouml;nlichen Daten',
-'REACCEPT_COOKIE'                      => 'Sieht so aus, als h&auml;tten Sie die Cookie-Richtlinie zuvor abgelehnt. Hast du deine Meinung ge&auml;ndert?',
-
+'BBGDPR_LAST_UPDATED'                  => 'Letzte Aktualisierung: %s',
+'BBGDPR_GDPR_ACCEPTED'                 => 'Zuvor akzeptiert am ',
+'REVIEW_PERSONAL_DATA'                 => 'Überprüfen Sie Ihre persönlichen Daten',
+'REACCEPT_COOKIE'                      => 'Anscheinend haben Sie die Cookie-Richtlinie zuvor abgelehnt. Haben Sie Ihre Meinung geändert?',
 ));
