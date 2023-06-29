@@ -8,7 +8,6 @@
  * @license Proprietary
  *
  */
-
 // TRANSLATORS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
@@ -54,7 +53,6 @@ $lang = array_merge($lang, array(
 1                                         => '%d',
 2                                         => '%d',
 ],
-
 'SITESPLAT_EXT'                           => 'Other Extensions',
 'BBCORE_DASHBOARD'                        => 'Dashboard',
 'SITESPLAT_UPDATE_MANAGER'                => 'Update Manager',
@@ -149,7 +147,6 @@ $lang = array_merge($lang, array(
 'MCP_REPORTS_ZERO'                        => 'There are no reports to review',
 'MCP_PM_REPORTS_ZERO'                     => 'There are no PM reports to review',
 
-
 'SUBFORUM_LINK'                           => 'Link opens in a new tab',
 'FORUMLIST_UNAPPROVED'                    => 'At least one topic in this forum has not been approved',
 'FORUMLIST_UNAPPROVED_POST'               => 'At least one post in this forum has not been approved',
@@ -217,7 +214,6 @@ $lang = array_merge($lang, array(
 
 'PLUPLOAD_PLACE_INLINE'                   => 'Inline',
 'PLUPLOAD_DELETE_FILE'                    => 'Delete',
-
 
 'REG_CREATING'                            => 'Creating Profile...',
 'LOADING'                                 => 'Loading...',
@@ -300,7 +296,6 @@ $lang = array_merge($lang, array(
 'POWERED'                                 => 'Powered By',
 'HANDCRAFTED'                             => 'HandCrafted With',
 'BY'                                      => 'By',
-
 'RECENT_TOPICS'                           => 'Recent Topics',
 'TWITTER'                                 => 'Twitter',
 'FAVORITES'                               => 'Favorites',

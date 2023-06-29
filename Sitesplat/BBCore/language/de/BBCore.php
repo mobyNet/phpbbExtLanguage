@@ -8,6 +8,21 @@
  * @license Proprietary
  *
  */
+// TRANSLATORS PLEASE NOTE
+//
+// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+//
+// Placeholders can now contain order information, e.g. instead of
+// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+// translators to re-order the output of data while ensuring it remains correct
+//
+// You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+// equally where a string contains only two placeholders which are used to wrap text
+// in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+//
+// Some characters you may want to copy&paste:
+// ’ » “ ” …
+//
 
 /**
  * DO NOT CHANGE
@@ -19,18 +34,18 @@ if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
+// load addon lang files first...allow BBCore to overwrite if needed
+$addon_lang = [];
+\sitesplat\load_ext_lang(__DIR__, $addon_lang);
+$lang = array_merge($lang, $addon_lang);
+
 // BBCore
 $lang = array_merge($lang, array(
-
 'PM_NEW_MSG'  => array(
-
-
 1                                              => 'Du hast %d neue private Nachricht',
 2                                              => 'Du hast %d neue private Nachrichten',
-	),
+),
 'PM_UNREAD_MSG'  => array(
-
-
 1                                              => 'Du hast %d ungelesene private Nachricht',
 2                                              => 'Du hast %d ungelesene private Nachrichten',
 ),
@@ -59,7 +74,6 @@ $lang = array_merge($lang, array(
 'UCP_MAIN_BOOKMARKS'                           => 'Lesezeichen verwalten',
 'UCP_MAIN_DRAFTS'                              => 'Entwürfe verwalten',
 'UCP_MAIN_ATTACHMENTS'                         => 'Anhänge verwalten',
-
 
 'USER_PANEL'                                   => 'Verwaltungsbereich',
 'UCP_PROFILE'                                  => 'Profil',
@@ -90,11 +104,9 @@ $lang = array_merge($lang, array(
 'PIXEL_SIZE'                                   => 'px',
 'HEIGHT_SIZE'                                  => 'Höhe',
 
-
 'UCP_GROUPS'                                   => 'Nutzergruppen',
 'UCP_GROUPS_MEMBERSHIP'                        => 'Mitgliedschaft bearbeiten',
 'UCP_GROUPS_MANAGE'                            => 'Gruppen verwalten',
-
 
 'UCP_ZEBRA'                                    => 'Freunde und ignorierte Mitglieder',
 'UCP_ZEBRA_FRIENDS'                            => 'Freunde bearbeiten',
@@ -116,7 +128,6 @@ $lang = array_merge($lang, array(
 'DELETE_POST_PERMANENT'                        => 'Beitrag dauerhaft löschen ',
 'DELETE_POST_SOFT_WARN'                        => 'Es kann wiederhergestellt werden',
 'DELETE_POST_PERMANENT_WARN'                   => 'Es kann NICHT wiederhergestellt werden',
-
 
 'POLL_MAX_OPTIONS_EXPLAIN_ALT'                 => 'Gib die maximale Anzahl an Möglichkeiten an, die ein Nutzer erhält',
 'POLL_VOTE_CHANGE_LABEL'                       => 'Wiederwahl erlauben',
@@ -163,7 +174,6 @@ $lang = array_merge($lang, array(
 'POSTINGS_CAP'                                 => 'Beitragsbearbeitung',
 'CAPTION_POSTINGS'                             => 'Starte einen Beitrag!',
 
-
 'MCP_CAPTION'                                  => 'Hier bekommst Du beigebracht deine Superkraft zu nutzen ;-)',
 'BOOTSTRAP_ELEMENT'                            => 'Bootstrap Elemente',
 'BOOTSTRAP_ELEMENT_CAPTION'                    => 'Forum Anfänger-Dokumentation',
@@ -205,7 +215,6 @@ $lang = array_merge($lang, array(
 'PLUPLOAD_PLACE_INLINE'                        => 'Linear',
 'PLUPLOAD_DELETE_FILE'                         => 'Löschen',
 
-
 'REG_CREATING'                                 => 'Profil erstellen...',
 'LOADING'                                      => 'Läd...',
 'SAVING'                                       => 'Speichert...',
@@ -216,7 +225,6 @@ $lang = array_merge($lang, array(
 'FILE_UPLOADING'                               => 'Hochladen...',
 'CASTING_VOTE'                                 => 'Stimme wird eingetragen...',
 'LOADING_FORM'                                 => 'Lade Formular',
-
 
 'MEMBERLIST_P_JOINED'                          => 'ist dem Forum beigetreten',
 'MEMBERLIST_P_EXPL'                            => 'Zu diesem Zeitpunkt habe ich mich registriert. ;)',
@@ -266,7 +274,6 @@ $lang = array_merge($lang, array(
 'GRAVATAR_EXPLAIN'                             => 'Wenn ein <a href="//en.gravatar.com/" target="_blank">GRAVATAR</a> mit Ihrer E-Mail-Adresse verknüpft ist, wird es als Standard festgelegt.',
 'GRAVATAR_EXPLAIN_CONFIRM'                     => 'Bitte bestätige hier deine E-Mail-Adresse',
 
-
 'DELETE_POLL'                                  => 'Umfrage löschen',
 'POLL_DELETE_HELPER'                           => '(Dies löscht nur die Umfrage) markieren und absenden',
 'JUMP_TO_POST'                                 => 'springe zum Beitrag',
@@ -292,7 +299,6 @@ $lang = array_merge($lang, array(
 'RECENT_TOPICS'                                => 'Letzte Einträge',
 'TWITTER'                                      => 'Twitter',
 'FAVORITES'                                    => 'Favoriten',
-
 
 'GALLERY'                                      => 'Gallerie',
 'CHAT'                                         => 'Chat',
