@@ -89,16 +89,12 @@ $lang = array_merge($lang, array(
 
 'LITEDOWN_MDL_TD_MD_TABLE'                  => 'Pipe tables',
 'LITEDOWN_MDL_TD_RSL_TABLE'                 => '<pre><code><span class="hljs-string">| Header 1 | Header 2 |</span>
-<span class="hljs-string">|----------|----------|</span>
-<span class="hljs-string">| Cell 1   | Cell 2   |</span>
-</code></pre>',
+                                               <span class="hljs-string">|----------|----------|</span>
+                                               <span class="hljs-string">| Cell 1   | Cell 2   |</span></code></pre>',
 'LITEDOWN_MDL_TD_SRT_TABLE'                 => 'n/a',
 
 'LITEDOWN_MDL_TD_MD_TABLE_CNT'              => 'Pipe tables text allign',
-'LITEDOWN_MDL_TD_RSL_TABLE_CNT'             => '<pre><code>| <span class="hljs-constant">Left </span>| <span class="hljs-constant">Center </span>| <span class="hljs-constant">Right </span>|
-|<span class="hljs-symbol">:-----|</span><span class="hljs-symbol">:------</span><span class="hljs-symbol">:|------</span><span class="hljs-symbol">:|</span>
-|   x  |    x   |   x   |
-</code></pre>',
+'LITEDOWN_MDL_TD_RSL_TABLE_CNT'             => '<pre><code>| <span class="hljs-constant">Left </span>| <span class="hljs-constant">Center </span>| <span class="hljs-constant">Right </span>||<span class="hljs-symbol">:-----|</span><span class="hljs-symbol">:------</span><span class="hljs-symbol">:|------</span><span class="hljs-symbol">:|</span>|   x  |    x   |   x   |</code></pre>',
 'LITEDOWN_MDL_TD_SRT_TABLE_CNT'             => 'n/a',
 
 'LITEDOWN_MDL_TD_MD_ENT'                    => 'HTML entities & ASCII',
