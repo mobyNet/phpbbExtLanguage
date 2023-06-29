@@ -27,17 +27,12 @@
 /**
  * DO NOT CHANGE
  */
-if (!defined('IN_PHPBB')) {
+ if (!defined('IN_PHPBB')) {
 	exit;
 }
 if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
-
-// load addon lang files first...allow BBCore to overwrite if needed
-$addon_lang = [];
-\sitesplat\load_ext_lang(__DIR__, $addon_lang);
-$lang = array_merge($lang, $addon_lang);
 
 // BBCore
 $lang = array_merge($lang, array(

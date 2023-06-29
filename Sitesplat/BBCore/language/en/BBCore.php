@@ -34,12 +34,7 @@ if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
-// load addon lang files first...allow BBCore to overwrite if needed
-$addon_lang = [];
-\sitesplat\load_ext_lang(__DIR__, $addon_lang);
-$lang = array_merge($lang, $addon_lang);
-
-// BBCore
+ // BBCore
 $lang = array_merge($lang, array(
 'PM_NEW_MSG'  => [
 1                                         => 'You have %d New Private Message',
