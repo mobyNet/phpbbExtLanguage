@@ -33,11 +33,9 @@
 if (!defined('IN_PHPBB')) {
 	exit;
 }
-
 if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
-
 $lang = array_merge($lang, array(
 'SS_AUTOUPDATE_DISABLED'                   => '<strong style="font-size:1.4em">BBCore auto-update is disabled!</strong>',
 'SS_BAD_FILESYSTEM'                        => 'You are using an obsolete PHP handler that makes your filesystem unwritable by phpBB.<br>Please consider installing a modern FastCGI PHP handler such as PHP-FPM.',
@@ -45,13 +43,13 @@ $lang = array_merge($lang, array(
 'SS_FOUNDERS'                              => 'Founders',
 'ACP_SITESPLAT_UPDATE_MANAGER'             => 'SiteSplat Update Manager',
 'VERSIONNUMBERS'                           => 'Installed Version: %s, download the new version from the server: <a style="color:#fff;" href="%s" title="Download" target="_blank">%s</a> or go to the <a href="%s">SiteSplat Update Manager</a>.',
-
 'VERSION_INSTALLED'                        => 'Installed Version',
 'NEW_BOOTS_VERSION'                        => '🌟 New %s version available 🌟',
+
 'SS_RAPID_DISABLE'                         => 'SS Rapid Disable',
 'SS_RAPID_DISABLE_TLT'                     => 'Disables (all) extensions at once. Make a backup first!!!',
-
 'DOWNLOAD_MSG'                             => 'New Latest Current version: <span class="label label-success">%s</span>',
+
 'DOWNLOAD_BTN_ENVATO'                      => ' <a class="btn btn-default sitesplat-bbcore-autoupdate" href="%s" title="Download from envato" target="_blank">View Envato item</a>',
 'DOWNLOAD_MSG_NO_UPD'                      => 'All good! looks like you are up to date! 👍💯',
 'START_AUTO'                               => 'Start Auto-update 🚀',
@@ -78,7 +76,6 @@ $lang = array_merge($lang, array(
 'ACP_BBCORE_MSG_FILES_FAIL'                => 'NOT all files were edited! Please replace manually the file(s) mentioned in the admin log under the MAINTENANCE tab.',
 'ACP_BBCORE_MSG_SETTINGS'                  => 'There No Configuration setting for this extension.<br />However not all updates were implemented properly due to the server file permissions or missing files. <br />See the admin log for more details.<br /><br />Please update the files permission manually.',
 'BBCORE_ERROR_DISABLE'                     => 'You cannot disable SiteSplat BBCore due to other active SiteSplat\'s extensions.<br />Disable SiteSplat\'s extensions first. (You can use the rapid disable to disable all the SiteSplat\'s extensions at once.)<br /><br /><div style="margin: 0px auto; width: 50%%;"><strong>» %s</strong></div>',
-
 // autoupdate
 'AUTOUPDATE_CONFIRM'                       => 'Confirm',
 'AUTOUPDATE_CONFIRM_CONFIRM'               => 'Are you sure you wish to update the theme with the auto-update?<br /><br /><strong>NOTE:</strong> The board will be disabled and the board cache will be automatically cleared for you after the update.<br /> A log of the changes is also saved under the ACP Admin log. <br /> A backup of your style (time stamped) will be stored for your convenience under the phpBB root/store/ folder on your server. <br />Make sure to clear your browser cache after the update and if you use CloudFlare make sure to clear the cache there as well plus clear again the forum cache via ACP!!!',
