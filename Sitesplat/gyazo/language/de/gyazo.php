@@ -38,18 +38,18 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'GYAZO_ACCESS_TOKEN'			=> 'Gyazo zugriff Token',
-	'GYAZO_ACCESS_TOKEN_EXPLAIN'	=> 'Sie müssen eine Gyazo-App registrieren, um das <strong>Zugriffstoken</strong> zu erhalten.<br /> Um eine neue App zu erstellen, gehen Sie zu <a href="https://gyazo.com/api">https:/ /gyazo.com/api</a>. Geben Sie dann hier das Access Token ein.',
-	
-	'GYAZO_UPLOAD_TITLE'		    => 'Bild Hochladen',
-	'GYAZO_UPLOAD_MAIN'			    => 'Laden Sie über den Gyazo-Dienst ein Bild zur Verwendung im Thema hoch. Das Bild wird nach dem Absenden automatisch in das Beitragsfeld oben eingefügt',
-	'GYAZO_UPLOAD'				    => 'Jetzt Bild hochladen',
-	'GYAZO_SELECT'				    => 'Bild ausw&auml;hlen',
-    'GYAZO_COPY'				    => 'Kopie',
-       
-	'GYAZO_OUTPUT_LINK'			    => 'Direkt link',
-	'GYAZO_OUTPUT_IMAGE'		    => 'IMG tag',
-	'GYAZO_OUTPUT_IMAGE_DELETE'	    => 'L&ouml;sch Link',
-	'GYAZO_OUTPUT_PLACEHOLDER'	    => 'Warten auf Bild-Upload...',
+'GYAZO_ACCESS_TOKEN'			 => 'Gyazo zugriff Token',
+'GYAZO_ACCESS_TOKEN_EXPLAIN'	      => 'Sie müssen eine Gyazo-App registrieren, um das <strong>Zugriffstoken</strong> zu erhalten.<br /> Um eine neue App zu erstellen, gehen Sie zu <a href="https://gyazo.com/api">https:/ /gyazo.com/api</a>. Geben Sie dann hier das Access Token ein.',
+
+'GYAZO_UPLOAD_TITLE'		      => 'Bild Hochladen',
+'GYAZO_UPLOAD_MAIN'			      => 'Laden Sie über den Gyazo-Dienst ein Bild zur Verwendung im Thema hoch. Das Bild wird nach dem Absenden automatisch in das Beitragsfeld oben eingefügt',
+'GYAZO_UPLOAD'				      => 'Jetzt Bild hochladen',
+'GYAZO_SELECT'				      => 'Bild ausw&auml;hlen',
+'GYAZO_COPY'				      => 'Kopie',
+
+'GYAZO_OUTPUT_LINK'			      => 'Direkt link',
+'GYAZO_OUTPUT_IMAGE'		      => 'IMG tag',
+'GYAZO_OUTPUT_IMAGE_DELETE'	      => 'L&ouml;sch Link',
+'GYAZO_OUTPUT_PLACEHOLDER'	      => 'Warten auf Bild-Upload...',
 
 ));

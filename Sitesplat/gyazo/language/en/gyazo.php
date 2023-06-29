@@ -38,18 +38,18 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'GYAZO_ACCESS_TOKEN'			=> 'Gyazo Access Token',
-	'GYAZO_ACCESS_TOKEN_EXPLAIN'	=> 'You need to register a Gyazo app to get the <strong>Access Token</strong>.<br /> For creating a new App go to <a href="https://gyazo.com/api">https://gyazo.com/api</a>. Then enter the Access Token here.',
-	
-	'GYAZO_UPLOAD_TITLE'		    => 'Upload an Image',
-	'GYAZO_UPLOAD_MAIN'			    => 'Upload an Image to use in topic via Gyazo service. The image is automatically inserted in the post field above once submitted',
-	'GYAZO_UPLOAD'				    => 'Upload Image now',
-	'GYAZO_SELECT'				    => 'Select Image',
-    'GYAZO_COPY'				    => 'Copy',
+'GYAZO_ACCESS_TOKEN'			=> 'Gyazo Access Token',
+'GYAZO_ACCESS_TOKEN_EXPLAIN'	     => 'You need to register a Gyazo app to get the <strong>Access Token</strong>.<br /> For creating a new App go to <a href="https://gyazo.com/api">https://gyazo.com/api</a>. Then enter the Access Token here.',
+
+'GYAZO_UPLOAD_TITLE'		     => 'Upload an Image',
+'GYAZO_UPLOAD_MAIN'			     => 'Upload an Image to use in topic via Gyazo service. The image is automatically inserted in the post field above once submitted',
+'GYAZO_UPLOAD'				     => 'Upload Image now',
+'GYAZO_SELECT'				     => 'Select Image',
+'GYAZO_COPY'				     => 'Copy',
        
-	'GYAZO_OUTPUT_LINK'			    => 'Direct link',
-	'GYAZO_OUTPUT_IMAGE'		    => 'BBcode tag',
-	'GYAZO_OUTPUT_IMAGE_DELETE'	    => 'Deletion Link',
-	'GYAZO_OUTPUT_PLACEHOLDER'	    => 'Waiting image upload...',
+'GYAZO_OUTPUT_LINK'			     => 'Direct link',
+'GYAZO_OUTPUT_IMAGE'		     => 'BBcode tag',
+'GYAZO_OUTPUT_IMAGE_DELETE'	     => 'Deletion Link',
+'GYAZO_OUTPUT_PLACEHOLDER'	     => 'Waiting image upload...',
 
 ));
