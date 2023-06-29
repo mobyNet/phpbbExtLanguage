@@ -51,9 +51,7 @@ if (empty($lang) || !is_array($lang)) {
 // ’ » “ ” …
 //
 
-$lang = array_merge(
-$lang,
-array(
+$lang = array_merge($lang,array(
 'UCP_IR'                             => 'Image Resizer',
 'IMAGE_RESIZE'                       => 'Image Resize',
 'IMAGE_RESIZE_EXPLAIN'               => 'Crop your %1$s from the picture and confirm.',
