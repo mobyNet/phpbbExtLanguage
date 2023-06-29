@@ -170,6 +170,7 @@ $lang = array_merge($lang, array(
 'TRACKER_REPORTERS_TICKETS'                      => 'Alle Tickets Meldungen',
 'TRACKER_RESEARCHING'                            => 'Recherchieren',
 'TRACKER_RETURN'                                 => '%sZur&uuml;ck zur Tracker-Index Seite%s',
+
 'TRACKER_SEARCH_DESCRIPTION'                     => 'Suchbegriffe eingeben',
 'TRACKER_SECURITY_TICKET'                        => 'Sicherheit Ticket',
 'TRACKER_SELECT'                                 => '(ausw&auml;hlen)',
