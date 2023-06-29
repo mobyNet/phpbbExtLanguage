@@ -77,8 +77,7 @@ $lang = array_merge($lang, array(
                                             <p><strong>Natürlich tun sie das!</strong></p>
                                             <p>Jeder ausgehende SMTP-Mailserver unterliegt den E-Mail-Richtlinien eines Anbieters, die stündliche und/oder tägliche E-Mail-Sendebeschränkungen enthalten. Diese Richtlinie bestimmt letztlich, wie viele E-Mails Sie pro Tag versenden können. Nachstehend finden Sie eine Liste der stündlichen und täglichen Sendebeschränkungen für die meisten großen ISPs, Webhosting-Unternehmen und Anbieter kostenloser E-Mail-Adressen.</p>
                                             <p><strong><a title="E-Mail-Versandbeschränkungen für ISP, Webhosting und kostenlose E-Mail-Anbieter" href="http://group-mail.com/sending-email/email-sending-limits-for-isp-web-hosting-and-free-email-providers/">E-Mail-Versandbeschränkungen von ISP, Webhosting und kostenlosen E-Mail-Anbietern</a></strong></p>
-                                            <p>Wenn Sie versuchen, mehr E-Mails zu versenden, als die stündlichen oder täglichen E-Mail-Versandlimits Ihres Mailservers zulassen, werden Sie feststellen, dass Fehler zurückgegeben werden, nachdem die angegebene Quote erreicht ist, und zwar mit folgendem Inhalt:<em> </em>
-                                            </p>
+                                            <p>Wenn Sie versuchen, mehr E-Mails zu versenden, als die stündlichen oder täglichen E-Mail-Versandlimits Ihres Mailservers zulassen, werden Sie feststellen, dass Fehler zurückgegeben werden, nachdem die angegebene Quote erreicht ist, und zwar mit folgendem Inhalt:<em> </em></p>
                                             <blockquote>
                                             	<p><em>Sie haben Ihre tägliche Sendequote erreicht</em>…</p>
                                             </blockquote>
@@ -117,8 +116,8 @@ $lang = array_merge($lang, array(
                                             <hr>
                                             <p></p>',
                                             
-                                            'EXT_NEWS_TUTORIALS_TITLE'               => 'Anleitungen',
-                                            'EXT_NEWS_TUTORIALS_EXPLAIN'             => '<li><p>Templates</p>
+ 'EXT_NEWS_TUTORIALS_TITLE'              => 'Anleitungen',
+ 'EXT_NEWS_TUTORIALS_EXPLAIN'            => '<li><p>Templates</p>
                                             <ul>
                                             <li><a href="http://htmlemailboilerplate.com/" target="_blank"><strong>HTML f&uuml;r Email - Boilerplate</strong></a>: Ein guter <strong>Startpunkt</strong> für die Codierung von E-Mails.</li>
                                             <li><a href="http://www.campaignmonitor.com/templates/" target="_blank"><strong>Vorlage der Templates</strong></a>: Template builder + kostenlos herunterladbare  templates</li>
@@ -137,15 +136,15 @@ $lang = array_merge($lang, array(
                                             </li>
                                             
                                             <li><p>Prüfung</p>
-                                            
+
                                             <ul>
                                             <li><a href="http://www.emailonacid.com/" target="_blank"><strong>E-Mail auf Acid testen</strong></a>: Kostenlose und kostenpflichtige Tests</li>
                                             <li><a href="http://litmus.com/" target="_blank"><strong>Litmus</strong></a></li>
                                             </ul>
                                             </li>
-                                            
+
                                             <li><p>Andere Quellen</p>
-                                            
+
                                             <ul>
                                             <li><a href="http://www.campaignmonitor.com/resources/will-it-work/email-clients/" target="_blank"><strong>Beliebte E-Mail-Clients von Campaign Monitor</strong></a></li>
                                             </ul>

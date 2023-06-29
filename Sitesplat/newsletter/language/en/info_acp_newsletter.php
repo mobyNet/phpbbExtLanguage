@@ -74,13 +74,10 @@ $lang = array_merge($lang, array(
 'NEWS_SUBSCRIBERS_INFO'                      => 'Subscribers and news info',
 'NEWS_TRICKS_TITLE'                          => 'Tips and Tricks',
 'ACP_NEWS_TRICK_EXPLAIN'                     => '<p>Does your ISP limit the number of emails you can send each day?</p>
-                                                <p><strong>Of course they do!</strong>
-                                                </p>
+                                                <p><strong>Of course they do!</strong></p>
                                                 <p>Every outgoing SMTP mail server is guided by a provider’s email policy which includes hourly and/or daily email send limits. This policy will ultimately determine how many emails you can send each day. You can find a list of the hourly and daily send limits for most of the major ISPs, web hosting companies and Free email address providers below.</p>
-                                                <p><strong><a title="Email sending limits for isp, web hosting and free email providers" href="http://group-mail.com/sending-email/email-sending-limits-for-isp-web-hosting-and-free-email-providers/">Email Sending Limits of ISP, Web Hosting and Free Email Providers</a></strong>
-                                                </p>
-                                                <p>If you try to send more email than the hourly or daily email sending limits of your mail server, you will notice errors being returned after the specified quota is met, saying something along the lines of:<em> </em>
-                                                </p>
+                                                <p><strong><a title="Email sending limits for isp, web hosting and free email providers" href="http://group-mail.com/sending-email/email-sending-limits-for-isp-web-hosting-and-free-email-providers/">Email Sending Limits of ISP, Web Hosting and Free Email Providers</a></strong></p>
+                                                <p>If you try to send more email than the hourly or daily email sending limits of your mail server, you will notice errors being returned after the specified quota is met, saying something along the lines of:<em> </em></p>
                                                 <blockquote>
                                                 	<p><em>you have reached your daily sending quota</em>…</p>
                                                 </blockquote>
