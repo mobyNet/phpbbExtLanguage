@@ -1,22 +1,20 @@
 <?php
 /**
-*
-* Gyazo - forum images uploader
-* @copyright (c) 2016 SiteSplat All rights reserved
-* @license Proprietary
-*
-*/
+ *
+ * Gyazo - forum images uploader
+ * @copyright (c) 2016 SiteSplat All rights reserved
+ * @license Proprietary
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -37,6 +35,6 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-    'SS_HELPER_NOTY'	        => 'SiteSplat BBcore existiert nicht!<br />Laden Sie den <a href="https://sitesplat.com" target="_blank">BBcore</a> herunter und kopieren Sie den BBcore-Ordner in Ihren Sitesplat-Erweiterungsordner.',
-	'GYAZO_NOTICE'				=> '<div style="width:auto;margin:20px auto;"><p>Die Einstellungen für diese Erweiterung befinden sich in <strong>%1$s » %2$s » %3$s.</strong><br />Bitte beachten Sie, dass Sie eine Gyazo-App registrieren müssen, um die Token-ID zu erhalten, die für die Funktion dieser Erweiterung erforderlich ist. <br />Um eine neue App zu erstellen, gehen Sie zu <a href="https://gyazo.com/api" target="_blank">https://gyazo.com/api</a> und registrieren Sie sie wie folgt die bereitgestellte Anleitung. <br />Dann verwenden Sie die Gyazo-Token-ID unter <strong>ACP > Beiträge > Dateianhänge: Gyazo Client ID</strong></p></div>',
+'SS_HELPER_NOTY'     => 'SiteSplat BBcore existiert nicht!<br />Laden Sie den <a href="https://sitesplat.com" target="_blank">BBcore</a> herunter und kopieren Sie den BBcore-Ordner in Ihren Sitesplat-Erweiterungsordner.',
+'GYAZO_NOTICE'       => '<div style="width:auto;margin:20px auto;"><p>Die Einstellungen für diese Erweiterung befinden sich in <strong>%1$s » %2$s » %3$s.</strong><br />Bitte beachten Sie, dass Sie eine Gyazo-App registrieren müssen, um die Token-ID zu erhalten, die für die Funktion dieser Erweiterung erforderlich ist. <br />Um eine neue App zu erstellen, gehen Sie zu <a href="https://gyazo.com/api" target="_blank">https://gyazo.com/api</a> und registrieren Sie sie wie folgt die bereitgestellte Anleitung. <br />Dann verwenden Sie die Gyazo-Token-ID unter <strong>ACP > Beiträge > Dateianhänge: Gyazo Client ID</strong></p></div>',
 ));
